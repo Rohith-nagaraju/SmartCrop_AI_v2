@@ -1,0 +1,22 @@
+class,support,precision,recall,f1_score
+Grape Black Rot,94,0.989474,1.0,0.994709
+Grape Esca Black Measles,110,1.0,1.0,1.0
+Grape Leaf Blight,86,1.0,1.0,1.0
+Healthy,538,0.996219,0.979554,0.987816
+Maize Blight,173,0.882022,0.907514,0.894587
+Maize Common Rust,197,0.989529,0.959391,0.974227
+Maize Gray Leaf Spot,87,0.820225,0.83908,0.829545
+Pepper Bacterial Spot,79,0.9875,1.0,0.993711
+Potato Early Blight,80,0.975309,0.9875,0.981366
+Potato Late Blight,80,0.975309,0.9875,0.981366
+Rice Bacterial Leaf Blight,96,0.964286,0.84375,0.9
+Rice Leaf Blast,96,0.830357,0.96875,0.894231
+Tomato Bacterial Spot,100,0.989247,0.92,0.953368
+Tomato Early Blight,100,0.923913,0.85,0.885417
+Tomato Late Blight,100,0.989247,0.92,0.953368
+Tomato Leaf Mold,100,0.950495,0.96,0.955224
+Tomato Septoria Leaf Spot,100,0.92,0.92,0.92
+Tomato Spider Mites,100,0.938776,0.92,0.929293
+Tomato Target Spot,100,0.761905,0.96,0.849558
+Tomato Tomato Mosaic Virus,100,1.0,0.97,0.984772
+Tomato Yellow Leaf Curl Virus,100,1.0,1.0,1.0

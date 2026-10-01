@@ -1,0 +1,1924 @@
+image_index,true_class,predicted_class,confidence,correct
+0,Healthy,Healthy,0.9977883100509644,True
+1,Healthy,Healthy,0.9970710277557373,True
+2,Healthy,Healthy,0.999992847442627,True
+3,Healthy,Healthy,0.9789374470710754,True
+4,Healthy,Healthy,0.9991169571876526,True
+5,Healthy,Healthy,0.9999963045120239,True
+6,Healthy,Healthy,0.8616047501564026,True
+7,Healthy,Healthy,0.9999793767929077,True
+8,Healthy,Healthy,0.999761164188385,True
+9,Healthy,Healthy,0.9999885559082031,True
+10,Healthy,Healthy,0.9998292922973633,True
+11,Healthy,Healthy,0.9969151020050049,True
+12,Healthy,Healthy,0.9999879598617554,True
+13,Healthy,Healthy,0.9980124235153198,True
+14,Healthy,Healthy,0.9996737241744995,True
+15,Healthy,Healthy,0.9998005032539368,True
+16,Healthy,Healthy,0.9948378205299377,True
+17,Healthy,Healthy,0.9954171180725098,True
+18,Healthy,Healthy,0.9996200799942017,True
+19,Healthy,Healthy,0.9999698400497437,True
+20,Healthy,Healthy,0.9761630296707153,True
+21,Healthy,Healthy,0.9911203980445862,True
+22,Healthy,Healthy,0.7277646064758301,True
+23,Healthy,Healthy,0.9706166982650757,True
+24,Healthy,Healthy,0.998458981513977,True
+25,Healthy,Healthy,0.9999998807907104,True
+26,Healthy,Healthy,0.9996528625488281,True
+27,Healthy,Healthy,0.998077392578125,True
+28,Healthy,Healthy,0.9992489218711853,True
+29,Healthy,Healthy,0.9997914433479309,True
+30,Healthy,Healthy,0.9999887943267822,True
+31,Healthy,Healthy,0.9991812109947205,True
+32,Healthy,Healthy,0.9987677335739136,True
+33,Healthy,Healthy,0.9999439716339111,True
+34,Healthy,Healthy,0.9981775283813477,True
+35,Healthy,Healthy,0.9999895095825195,True
+36,Healthy,Healthy,0.9037938714027405,True
+37,Healthy,Healthy,0.9999171495437622,True
+38,Healthy,Healthy,0.9996954202651978,True
+39,Healthy,Healthy,0.998914361000061,True
+40,Healthy,Healthy,0.9999877214431763,True
+41,Healthy,Healthy,0.9627771377563477,True
+42,Healthy,Healthy,0.9998987913131714,True
+43,Healthy,Healthy,0.8421106934547424,True
+44,Healthy,Healthy,0.9997252821922302,True
+45,Healthy,Healthy,0.9994545578956604,True
+46,Healthy,Healthy,0.999974250793457,True
+47,Healthy,Healthy,0.9984440207481384,True
+48,Healthy,Healthy,0.9997128844261169,True
+49,Healthy,Healthy,0.9994611144065857,True
+50,Healthy,Healthy,0.9716934561729431,True
+51,Healthy,Healthy,0.9982979893684387,True
+52,Healthy,Healthy,0.9995757937431335,True
+53,Healthy,Healthy,0.9983906745910645,True
+54,Healthy,Healthy,0.9986624717712402,True
+55,Healthy,Healthy,0.9970049262046814,True
+56,Healthy,Healthy,0.9405217170715332,True
+57,Healthy,Healthy,0.9997218251228333,True
+58,Healthy,Healthy,0.9999743700027466,True
+59,Healthy,Healthy,0.9999178647994995,True
+60,Healthy,Healthy,0.999927282333374,True
+61,Healthy,Healthy,0.9999215602874756,True
+62,Healthy,Healthy,0.9994776844978333,True
+63,Healthy,Healthy,0.9996567964553833,True
+64,Healthy,Healthy,0.9999322891235352,True
+65,Healthy,Healthy,0.9388257265090942,True
+66,Healthy,Healthy,0.9999842643737793,True
+67,Healthy,Healthy,0.9999845027923584,True
+68,Healthy,Healthy,0.9982012510299683,True
+69,Healthy,Healthy,0.9937071204185486,True
+70,Healthy,Healthy,0.9908981919288635,True
+71,Healthy,Healthy,0.9604173898696899,True
+72,Healthy,Healthy,0.9999834299087524,True
+73,Healthy,Healthy,0.9999971389770508,True
+74,Healthy,Healthy,0.9979440569877625,True
+75,Healthy,Healthy,0.9997085928916931,True
+76,Healthy,Healthy,0.9996514320373535,True
+77,Healthy,Healthy,0.999636173248291,True
+78,Healthy,Healthy,0.9996905326843262,True
+79,Healthy,Healthy,0.999290943145752,True
+80,Healthy,Healthy,0.9999616146087646,True
+81,Healthy,Healthy,0.9999295473098755,True
+82,Healthy,Healthy,0.9974984526634216,True
+83,Healthy,Healthy,0.9993492960929871,True
+84,Healthy,Healthy,0.9999264478683472,True
+85,Healthy,Healthy,0.9999582767486572,True
+86,Healthy,Healthy,0.9977572560310364,True
+87,Healthy,Healthy,0.9598519802093506,True
+88,Healthy,Healthy,0.9999877214431763,True
+89,Healthy,Healthy,0.9933557510375977,True
+90,Healthy,Healthy,0.9994624257087708,True
+91,Healthy,Healthy,0.9986770749092102,True
+92,Healthy,Healthy,0.9999957084655762,True
+93,Healthy,Healthy,0.9996737241744995,True
+94,Healthy,Healthy,0.9987873435020447,True
+95,Healthy,Healthy,0.9999741315841675,True
+96,Healthy,Healthy,0.9989309906959534,True
+97,Healthy,Healthy,0.9998121857643127,True
+98,Healthy,Healthy,0.9320393800735474,True
+99,Healthy,Healthy,0.9062524437904358,True
+100,Healthy,Healthy,0.9995137453079224,True
+101,Healthy,Healthy,0.9974077343940735,True
+102,Healthy,Healthy,0.9999256134033203,True
+103,Healthy,Healthy,0.9998805522918701,True
+104,Healthy,Healthy,0.9644507169723511,True
+105,Healthy,Healthy,0.9986923336982727,True
+106,Healthy,Maize Gray Leaf Spot,0.3331811726093292,False
+107,Healthy,Healthy,0.9650893807411194,True
+108,Healthy,Healthy,0.9998294115066528,True
+109,Healthy,Healthy,0.9966992735862732,True
+110,Healthy,Healthy,0.9752941131591797,True
+111,Healthy,Healthy,0.8262289762496948,True
+112,Healthy,Healthy,0.9867460131645203,True
+113,Healthy,Healthy,0.9999371767044067,True
+114,Healthy,Healthy,0.9999868869781494,True
+115,Healthy,Healthy,0.9998971223831177,True
+116,Healthy,Healthy,0.9419454336166382,True
+117,Healthy,Healthy,0.9993346333503723,True
+118,Healthy,Healthy,0.9977307915687561,True
+119,Healthy,Healthy,0.975853681564331,True
+120,Healthy,Healthy,0.9999427795410156,True
+121,Healthy,Healthy,0.9984336495399475,True
+122,Healthy,Healthy,0.997188150882721,True
+123,Healthy,Healthy,0.9995467066764832,True
+124,Healthy,Healthy,0.9779049158096313,True
+125,Healthy,Healthy,0.9967984557151794,True
+126,Healthy,Healthy,0.9984253644943237,True
+127,Healthy,Healthy,0.9941813349723816,True
+128,Healthy,Maize Common Rust,0.6066771745681763,False
+129,Healthy,Healthy,0.9994297623634338,True
+130,Healthy,Healthy,0.9990881681442261,True
+131,Healthy,Healthy,0.9997877478599548,True
+132,Healthy,Healthy,0.9998891353607178,True
+133,Healthy,Healthy,0.9938236474990845,True
+134,Healthy,Healthy,0.9999047517776489,True
+135,Healthy,Healthy,0.9859360456466675,True
+136,Healthy,Healthy,0.9994561076164246,True
+137,Healthy,Healthy,0.9997497200965881,True
+138,Healthy,Healthy,0.9999440908432007,True
+139,Healthy,Healthy,0.9985126852989197,True
+140,Healthy,Healthy,0.9997929930686951,True
+141,Healthy,Healthy,0.950925886631012,True
+142,Healthy,Healthy,0.9996134638786316,True
+143,Healthy,Healthy,0.9995143413543701,True
+144,Healthy,Healthy,0.9999102354049683,True
+145,Healthy,Healthy,0.9999948740005493,True
+146,Healthy,Healthy,0.999763548374176,True
+147,Healthy,Healthy,0.9994220733642578,True
+148,Healthy,Healthy,0.9980292916297913,True
+149,Healthy,Healthy,0.9999915361404419,True
+150,Healthy,Healthy,0.9999319314956665,True
+151,Healthy,Healthy,0.9846790432929993,True
+152,Healthy,Healthy,0.9974272847175598,True
+153,Healthy,Healthy,0.9997627139091492,True
+154,Healthy,Healthy,0.9997785687446594,True
+155,Healthy,Healthy,0.998646080493927,True
+156,Healthy,Healthy,0.9993991851806641,True
+157,Healthy,Healthy,0.8933840990066528,True
+158,Healthy,Healthy,0.9995656609535217,True
+159,Healthy,Healthy,0.9913873076438904,True
+160,Healthy,Healthy,0.9807588458061218,True
+161,Healthy,Healthy,0.999688982963562,True
+162,Healthy,Healthy,0.9991876482963562,True
+163,Healthy,Healthy,0.9998770952224731,True
+164,Healthy,Healthy,0.9981768131256104,True
+165,Healthy,Healthy,0.9928570985794067,True
+166,Healthy,Healthy,0.9999946355819702,True
+167,Healthy,Healthy,0.9918022751808167,True
+168,Healthy,Healthy,0.9999967813491821,True
+169,Healthy,Healthy,0.9979788661003113,True
+170,Healthy,Healthy,0.9999915361404419,True
+171,Healthy,Healthy,0.9986252784729004,True
+172,Healthy,Healthy,0.8851464986801147,True
+173,Healthy,Healthy,0.9991366267204285,True
+174,Healthy,Healthy,0.9945801496505737,True
+175,Healthy,Healthy,0.9986609220504761,True
+176,Healthy,Healthy,0.9272570610046387,True
+177,Healthy,Healthy,0.9136449098587036,True
+178,Healthy,Healthy,0.8319839239120483,True
+179,Healthy,Healthy,0.9728204011917114,True
+180,Healthy,Healthy,0.9972934126853943,True
+181,Healthy,Healthy,0.9880023002624512,True
+182,Healthy,Healthy,0.9134621620178223,True
+183,Healthy,Healthy,0.36704006791114807,True
+184,Healthy,Healthy,0.9979463219642639,True
+185,Healthy,Healthy,0.9992129802703857,True
+186,Healthy,Healthy,0.9833305478096008,True
+187,Healthy,Healthy,0.9805280566215515,True
+188,Healthy,Healthy,0.9985478520393372,True
+189,Healthy,Healthy,0.5166131854057312,True
+190,Healthy,Healthy,0.9888898134231567,True
+191,Healthy,Healthy,0.9997273087501526,True
+192,Healthy,Healthy,0.9975816011428833,True
+193,Healthy,Healthy,0.9960278272628784,True
+194,Healthy,Healthy,0.9983603358268738,True
+195,Healthy,Healthy,0.9803826808929443,True
+196,Healthy,Healthy,0.9812493920326233,True
+197,Healthy,Rice Leaf Blast,0.678220272064209,False
+198,Healthy,Rice Leaf Blast,0.5560939908027649,False
+199,Healthy,Healthy,0.9985490441322327,True
+200,Healthy,Healthy,0.9849177002906799,True
+201,Healthy,Healthy,0.9988396763801575,True
+202,Healthy,Healthy,0.9991829991340637,True
+203,Healthy,Healthy,0.5058250427246094,True
+204,Healthy,Healthy,0.8978024125099182,True
+205,Healthy,Healthy,0.9002950191497803,True
+206,Healthy,Healthy,0.9942202568054199,True
+207,Healthy,Healthy,0.9474363327026367,True
+208,Healthy,Healthy,0.9521942734718323,True
+209,Healthy,Healthy,0.9823427796363831,True
+210,Healthy,Healthy,0.9017043709754944,True
+211,Healthy,Healthy,0.9988810420036316,True
+212,Healthy,Healthy,0.617061972618103,True
+213,Healthy,Healthy,0.9829640984535217,True
+214,Healthy,Healthy,0.9844755530357361,True
+215,Healthy,Healthy,0.9960319399833679,True
+216,Healthy,Healthy,0.9114604592323303,True
+217,Healthy,Healthy,0.9981009364128113,True
+218,Healthy,Healthy,0.9636180400848389,True
+219,Healthy,Healthy,0.9994679093360901,True
+220,Healthy,Healthy,0.9980344176292419,True
+221,Healthy,Healthy,0.9976797699928284,True
+222,Healthy,Healthy,0.9989461302757263,True
+223,Healthy,Healthy,0.9495192766189575,True
+224,Healthy,Healthy,0.9564149975776672,True
+225,Healthy,Healthy,0.9813467264175415,True
+226,Healthy,Healthy,0.997582197189331,True
+227,Healthy,Healthy,0.9933266639709473,True
+228,Healthy,Healthy,0.9752830862998962,True
+229,Healthy,Healthy,0.9962575435638428,True
+230,Healthy,Healthy,0.9070764183998108,True
+231,Healthy,Healthy,0.928358256816864,True
+232,Healthy,Healthy,0.954658567905426,True
+233,Healthy,Healthy,0.9850226044654846,True
+234,Healthy,Healthy,0.9920303821563721,True
+235,Healthy,Healthy,0.9985465407371521,True
+236,Healthy,Healthy,0.9536768198013306,True
+237,Healthy,Healthy,0.7457700371742249,True
+238,Healthy,Healthy,0.9142482280731201,True
+239,Healthy,Healthy,0.9963345527648926,True
+240,Healthy,Healthy,0.9848938584327698,True
+241,Healthy,Healthy,0.9048377871513367,True
+242,Healthy,Healthy,0.9919354915618896,True
+243,Healthy,Healthy,0.7813583612442017,True
+244,Healthy,Healthy,0.8773435354232788,True
+245,Healthy,Healthy,0.9512676000595093,True
+246,Healthy,Healthy,0.9992412328720093,True
+247,Healthy,Healthy,0.9962588548660278,True
+248,Healthy,Healthy,0.7236682176589966,True
+249,Healthy,Healthy,0.5383992195129395,True
+250,Healthy,Healthy,0.9771170020103455,True
+251,Healthy,Healthy,0.992360532283783,True
+252,Healthy,Healthy,0.992771565914154,True
+253,Healthy,Healthy,0.9974029660224915,True
+254,Healthy,Healthy,0.9919877052307129,True
+255,Healthy,Healthy,0.9977191090583801,True
+256,Healthy,Healthy,0.9911673665046692,True
+257,Healthy,Rice Leaf Blast,0.6666988730430603,False
+258,Healthy,Healthy,0.7159470319747925,True
+259,Healthy,Healthy,0.9644621014595032,True
+260,Healthy,Healthy,0.9518919587135315,True
+261,Healthy,Healthy,0.9975042939186096,True
+262,Healthy,Healthy,0.9954980611801147,True
+263,Healthy,Healthy,0.9990158081054688,True
+264,Healthy,Healthy,0.9866496920585632,True
+265,Healthy,Healthy,0.9961569905281067,True
+266,Healthy,Healthy,0.9996577501296997,True
+267,Healthy,Healthy,0.9972816705703735,True
+268,Healthy,Healthy,0.9966267347335815,True
+269,Healthy,Healthy,0.9932271838188171,True
+270,Healthy,Healthy,0.982299268245697,True
+271,Healthy,Healthy,0.9955623149871826,True
+272,Healthy,Healthy,0.9960765242576599,True
+273,Healthy,Healthy,0.9956894516944885,True
+274,Healthy,Healthy,0.9944532513618469,True
+275,Healthy,Healthy,0.9708045721054077,True
+276,Healthy,Healthy,0.9964712858200073,True
+277,Healthy,Healthy,0.9527161121368408,True
+278,Healthy,Healthy,0.9940404295921326,True
+279,Healthy,Healthy,0.991553008556366,True
+280,Healthy,Healthy,0.9993809461593628,True
+281,Healthy,Healthy,0.9997445940971375,True
+282,Healthy,Healthy,0.9956598877906799,True
+283,Healthy,Healthy,0.9958174824714661,True
+284,Healthy,Healthy,0.9903821349143982,True
+285,Healthy,Healthy,0.9990793466567993,True
+286,Healthy,Healthy,0.9954116940498352,True
+287,Healthy,Healthy,0.977386474609375,True
+288,Healthy,Healthy,0.9998835325241089,True
+289,Healthy,Healthy,0.9702492356300354,True
+290,Healthy,Healthy,0.9926742911338806,True
+291,Healthy,Healthy,0.9990552067756653,True
+292,Healthy,Healthy,0.9064627885818481,True
+293,Healthy,Healthy,0.9910949468612671,True
+294,Healthy,Healthy,0.9973535537719727,True
+295,Healthy,Healthy,0.6578181385993958,True
+296,Healthy,Healthy,0.9913367033004761,True
+297,Healthy,Healthy,0.9950554370880127,True
+298,Healthy,Healthy,0.9975743889808655,True
+299,Healthy,Healthy,0.9961718916893005,True
+300,Healthy,Healthy,0.9987743496894836,True
+301,Healthy,Healthy,0.9994798302650452,True
+302,Healthy,Healthy,0.9986947178840637,True
+303,Healthy,Healthy,0.9975736737251282,True
+304,Healthy,Healthy,0.9971862435340881,True
+305,Healthy,Healthy,0.589623749256134,True
+306,Healthy,Healthy,0.8747439384460449,True
+307,Healthy,Healthy,0.9975861310958862,True
+308,Healthy,Healthy,0.9982864260673523,True
+309,Healthy,Healthy,0.9993330836296082,True
+310,Healthy,Healthy,0.8841853737831116,True
+311,Healthy,Healthy,0.9203442931175232,True
+312,Healthy,Healthy,0.9999374151229858,True
+313,Healthy,Healthy,0.9971649050712585,True
+314,Healthy,Healthy,0.9999555349349976,True
+315,Healthy,Healthy,0.9953871369361877,True
+316,Healthy,Healthy,0.9999254941940308,True
+317,Healthy,Healthy,0.9927487969398499,True
+318,Healthy,Healthy,0.9995855689048767,True
+319,Healthy,Healthy,0.9833725094795227,True
+320,Healthy,Healthy,0.9978110194206238,True
+321,Healthy,Healthy,0.9877364039421082,True
+322,Healthy,Healthy,0.9896480441093445,True
+323,Healthy,Healthy,0.9293947219848633,True
+324,Healthy,Healthy,0.9566513895988464,True
+325,Healthy,Healthy,0.9991451501846313,True
+326,Healthy,Healthy,0.9912075400352478,True
+327,Healthy,Healthy,0.9843279123306274,True
+328,Healthy,Healthy,0.9985328912734985,True
+329,Healthy,Healthy,0.999639630317688,True
+330,Healthy,Healthy,0.912838339805603,True
+331,Healthy,Healthy,0.9950233697891235,True
+332,Healthy,Healthy,0.8838509321212769,True
+333,Healthy,Healthy,0.7879608273506165,True
+334,Healthy,Healthy,0.9543415904045105,True
+335,Healthy,Healthy,0.7650688290596008,True
+336,Healthy,Healthy,0.9946883916854858,True
+337,Healthy,Healthy,0.9986525177955627,True
+338,Healthy,Healthy,0.8846347332000732,True
+339,Healthy,Healthy,0.9790495038032532,True
+340,Healthy,Healthy,0.9997074007987976,True
+341,Healthy,Healthy,0.7797534465789795,True
+342,Healthy,Healthy,0.985978901386261,True
+343,Healthy,Healthy,0.9583383798599243,True
+344,Healthy,Healthy,0.9991342425346375,True
+345,Healthy,Healthy,0.9991145730018616,True
+346,Healthy,Healthy,0.9984760880470276,True
+347,Healthy,Healthy,0.9968376159667969,True
+348,Healthy,Healthy,0.9988044500350952,True
+349,Healthy,Tomato Target Spot,0.8200146555900574,False
+350,Healthy,Healthy,0.9996063113212585,True
+351,Healthy,Healthy,0.9996596574783325,True
+352,Healthy,Healthy,0.9897915124893188,True
+353,Healthy,Healthy,0.977860689163208,True
+354,Healthy,Healthy,0.5590860247612,True
+355,Healthy,Healthy,0.996480405330658,True
+356,Healthy,Healthy,0.9957270622253418,True
+357,Healthy,Healthy,0.9940003156661987,True
+358,Healthy,Healthy,0.9999555349349976,True
+359,Healthy,Healthy,0.997856080532074,True
+360,Healthy,Healthy,0.9598824977874756,True
+361,Healthy,Healthy,0.9972578883171082,True
+362,Healthy,Healthy,0.9993948936462402,True
+363,Healthy,Healthy,0.8979097604751587,True
+364,Healthy,Healthy,0.999923586845398,True
+365,Healthy,Healthy,0.9887362122535706,True
+366,Healthy,Healthy,0.9912216663360596,True
+367,Healthy,Healthy,0.7520652413368225,True
+368,Healthy,Healthy,0.9989185333251953,True
+369,Healthy,Healthy,0.9940464496612549,True
+370,Healthy,Healthy,0.8728811740875244,True
+371,Healthy,Healthy,0.9988420605659485,True
+372,Healthy,Healthy,0.9637340307235718,True
+373,Healthy,Tomato Target Spot,0.8719185590744019,False
+374,Maize Blight,Maize Blight,0.75789874792099,True
+375,Maize Blight,Maize Blight,0.979616641998291,True
+376,Maize Blight,Maize Blight,0.8530712723731995,True
+377,Maize Blight,Maize Blight,0.8915844559669495,True
+378,Maize Blight,Maize Blight,0.9805724620819092,True
+379,Maize Blight,Maize Blight,0.6898283958435059,True
+380,Maize Blight,Maize Gray Leaf Spot,0.979488730430603,False
+381,Maize Blight,Maize Blight,0.9988424181938171,True
+382,Maize Blight,Maize Blight,0.9363645315170288,True
+383,Maize Blight,Maize Blight,0.7485870122909546,True
+384,Maize Blight,Maize Blight,0.9993283748626709,True
+385,Maize Blight,Maize Blight,0.9960164427757263,True
+386,Maize Blight,Maize Blight,0.8967764377593994,True
+387,Maize Blight,Maize Gray Leaf Spot,0.8890190124511719,False
+388,Maize Blight,Maize Blight,0.9913867115974426,True
+389,Maize Blight,Maize Blight,0.9813822507858276,True
+390,Maize Blight,Maize Blight,0.9977037310600281,True
+391,Maize Blight,Maize Blight,0.9691451191902161,True
+392,Maize Blight,Maize Blight,0.9953194260597229,True
+393,Maize Blight,Maize Blight,0.9969817996025085,True
+394,Maize Blight,Maize Blight,0.9932419657707214,True
+395,Maize Blight,Maize Blight,0.9978996515274048,True
+396,Maize Blight,Maize Blight,0.9268420338630676,True
+397,Maize Blight,Maize Blight,0.9771725535392761,True
+398,Maize Blight,Maize Blight,0.9333491325378418,True
+399,Maize Blight,Maize Blight,0.9880952835083008,True
+400,Maize Blight,Maize Blight,0.872155487537384,True
+401,Maize Blight,Maize Blight,0.982700765132904,True
+402,Maize Blight,Maize Gray Leaf Spot,0.8574073910713196,False
+403,Maize Blight,Maize Blight,0.7494761943817139,True
+404,Maize Blight,Maize Gray Leaf Spot,0.7086008191108704,False
+405,Maize Blight,Maize Blight,0.9672274589538574,True
+406,Maize Blight,Maize Blight,0.4545174241065979,True
+407,Maize Blight,Maize Blight,0.9575047492980957,True
+408,Maize Blight,Maize Blight,0.9985024929046631,True
+409,Maize Blight,Maize Blight,0.9475581049919128,True
+410,Maize Blight,Maize Blight,0.9981437921524048,True
+411,Maize Blight,Maize Blight,0.9941015839576721,True
+412,Maize Blight,Maize Blight,0.9490599632263184,True
+413,Maize Blight,Maize Blight,0.955389142036438,True
+414,Maize Blight,Maize Blight,0.9744150042533875,True
+415,Maize Blight,Maize Blight,0.9350787401199341,True
+416,Maize Blight,Maize Blight,0.9844213724136353,True
+417,Maize Blight,Maize Blight,0.930782675743103,True
+418,Maize Blight,Maize Blight,0.9653459191322327,True
+419,Maize Blight,Maize Blight,0.5245353579521179,True
+420,Maize Blight,Maize Blight,0.9671489596366882,True
+421,Maize Blight,Maize Blight,0.9627977013587952,True
+422,Maize Blight,Maize Blight,0.9858637452125549,True
+423,Maize Blight,Maize Blight,0.5947420597076416,True
+424,Maize Blight,Maize Blight,0.9687677025794983,True
+425,Maize Blight,Maize Gray Leaf Spot,0.838239848613739,False
+426,Maize Blight,Maize Blight,0.9953054189682007,True
+427,Maize Blight,Maize Blight,0.9645566940307617,True
+428,Maize Blight,Maize Blight,0.9656352996826172,True
+429,Maize Blight,Maize Blight,0.9955112934112549,True
+430,Maize Blight,Maize Blight,0.9858604669570923,True
+431,Maize Blight,Maize Blight,0.9969018697738647,True
+432,Maize Blight,Maize Blight,0.9055778980255127,True
+433,Maize Blight,Maize Gray Leaf Spot,0.4761984050273895,False
+434,Maize Blight,Maize Blight,0.9891324639320374,True
+435,Maize Blight,Maize Blight,0.4392305612564087,True
+436,Maize Blight,Maize Gray Leaf Spot,0.6060501337051392,False
+437,Maize Blight,Maize Blight,0.9860344529151917,True
+438,Maize Blight,Maize Blight,0.7534477710723877,True
+439,Maize Blight,Maize Blight,0.9811897277832031,True
+440,Maize Blight,Maize Blight,0.5789120197296143,True
+441,Maize Blight,Maize Blight,0.9357068538665771,True
+442,Maize Blight,Maize Blight,0.9793962240219116,True
+443,Maize Blight,Maize Blight,0.9971367120742798,True
+444,Maize Blight,Maize Blight,0.9149024486541748,True
+445,Maize Blight,Maize Blight,0.9984961748123169,True
+446,Maize Blight,Maize Gray Leaf Spot,0.729036271572113,False
+447,Maize Blight,Maize Blight,0.9819501638412476,True
+448,Maize Blight,Maize Blight,0.8039066195487976,True
+449,Maize Blight,Maize Blight,0.9796494841575623,True
+450,Maize Blight,Maize Blight,0.8536147475242615,True
+451,Maize Blight,Maize Blight,0.970030665397644,True
+452,Maize Blight,Maize Blight,0.5443497896194458,True
+453,Maize Blight,Maize Blight,0.6427936553955078,True
+454,Maize Blight,Maize Blight,0.9928090572357178,True
+455,Maize Blight,Maize Blight,0.9420017004013062,True
+456,Maize Blight,Maize Blight,0.9931454658508301,True
+457,Maize Blight,Maize Gray Leaf Spot,0.49490171670913696,False
+458,Maize Blight,Maize Blight,0.9677338004112244,True
+459,Maize Blight,Maize Blight,0.9534322619438171,True
+460,Maize Blight,Maize Blight,0.5658241510391235,True
+461,Maize Blight,Maize Blight,0.9725952744483948,True
+462,Maize Blight,Maize Blight,0.9741833209991455,True
+463,Maize Blight,Maize Blight,0.8528621792793274,True
+464,Maize Blight,Maize Blight,0.9881591796875,True
+465,Maize Blight,Maize Blight,0.9354496002197266,True
+466,Maize Blight,Maize Blight,0.9983742237091064,True
+467,Maize Blight,Maize Gray Leaf Spot,0.9842402935028076,False
+468,Maize Blight,Maize Blight,0.9362410306930542,True
+469,Maize Blight,Maize Blight,0.9991880059242249,True
+470,Maize Blight,Maize Blight,0.9208834171295166,True
+471,Maize Blight,Maize Blight,0.9958789348602295,True
+472,Maize Blight,Maize Blight,0.9699442982673645,True
+473,Maize Blight,Maize Common Rust,0.4906191825866699,False
+474,Maize Blight,Maize Blight,0.9666990041732788,True
+475,Maize Blight,Maize Gray Leaf Spot,0.9458664655685425,False
+476,Maize Blight,Maize Blight,0.5807514190673828,True
+477,Maize Blight,Maize Blight,0.9841940999031067,True
+478,Maize Blight,Maize Blight,0.9651516675949097,True
+479,Maize Blight,Maize Blight,0.9754063487052917,True
+480,Maize Blight,Maize Blight,0.7329366207122803,True
+481,Maize Blight,Maize Blight,0.9818230867385864,True
+482,Maize Blight,Maize Blight,0.9951800107955933,True
+483,Maize Blight,Maize Blight,0.8167555332183838,True
+484,Maize Blight,Maize Blight,0.9976054430007935,True
+485,Maize Blight,Maize Blight,0.6479941606521606,True
+486,Maize Blight,Maize Blight,0.885276734828949,True
+487,Maize Blight,Maize Blight,0.9960273504257202,True
+488,Maize Blight,Maize Blight,0.8560062050819397,True
+489,Maize Blight,Maize Blight,0.9921676516532898,True
+490,Maize Blight,Maize Blight,0.9856614470481873,True
+491,Maize Blight,Maize Gray Leaf Spot,0.5594711303710938,False
+492,Maize Blight,Maize Blight,0.9978415966033936,True
+493,Maize Blight,Maize Blight,0.9946407079696655,True
+494,Maize Blight,Maize Blight,0.9964084029197693,True
+495,Maize Blight,Maize Blight,0.991707980632782,True
+496,Maize Blight,Maize Blight,0.99904865026474,True
+497,Maize Blight,Maize Blight,0.5847724676132202,True
+498,Maize Blight,Maize Blight,0.9260219931602478,True
+499,Maize Blight,Maize Blight,0.9889786839485168,True
+500,Maize Blight,Maize Blight,0.9986152648925781,True
+501,Maize Blight,Maize Blight,0.9975542426109314,True
+502,Maize Blight,Maize Blight,0.9737399220466614,True
+503,Maize Blight,Maize Blight,0.822445273399353,True
+504,Maize Blight,Maize Blight,0.9955928921699524,True
+505,Maize Blight,Maize Blight,0.9095133543014526,True
+506,Maize Blight,Maize Blight,0.989777147769928,True
+507,Maize Blight,Maize Blight,0.8669134974479675,True
+508,Maize Blight,Maize Blight,0.9919030070304871,True
+509,Maize Blight,Maize Blight,0.9991267323493958,True
+510,Maize Blight,Maize Blight,0.8360350131988525,True
+511,Maize Blight,Maize Gray Leaf Spot,0.9713232517242432,False
+512,Maize Blight,Maize Blight,0.9953588843345642,True
+513,Maize Blight,Maize Blight,0.981296956539154,True
+514,Maize Blight,Maize Blight,0.9863757491111755,True
+515,Maize Blight,Maize Blight,0.7398077845573425,True
+516,Maize Blight,Maize Blight,0.46430322527885437,True
+517,Maize Blight,Maize Blight,0.5549773573875427,True
+518,Maize Blight,Maize Blight,0.9556609988212585,True
+519,Maize Blight,Maize Blight,0.992478609085083,True
+520,Maize Blight,Maize Blight,0.919155478477478,True
+521,Maize Blight,Maize Blight,0.9724251627922058,True
+522,Maize Blight,Maize Blight,0.9925578832626343,True
+523,Maize Blight,Maize Blight,0.997795820236206,True
+524,Maize Blight,Maize Blight,0.9933300614356995,True
+525,Maize Blight,Maize Blight,0.9975607395172119,True
+526,Maize Blight,Maize Blight,0.6125375032424927,True
+527,Maize Blight,Maize Blight,0.9971018433570862,True
+528,Maize Blight,Maize Blight,0.8883245587348938,True
+529,Maize Blight,Maize Blight,0.9835984110832214,True
+530,Maize Blight,Maize Gray Leaf Spot,0.5107752680778503,False
+531,Maize Blight,Maize Blight,0.9742480516433716,True
+532,Maize Blight,Maize Blight,0.9514194130897522,True
+533,Maize Blight,Maize Gray Leaf Spot,0.6618024110794067,False
+534,Maize Blight,Maize Blight,0.9630729556083679,True
+535,Maize Blight,Maize Blight,0.987063467502594,True
+536,Maize Blight,Maize Blight,0.9900727272033691,True
+537,Maize Blight,Maize Blight,0.9914211630821228,True
+538,Maize Blight,Maize Blight,0.9971627593040466,True
+539,Maize Blight,Maize Blight,0.9959591031074524,True
+540,Maize Blight,Maize Blight,0.9285810589790344,True
+541,Maize Blight,Maize Blight,0.9952113032341003,True
+542,Maize Blight,Maize Blight,0.9759868383407593,True
+543,Maize Blight,Maize Blight,0.8767629265785217,True
+544,Maize Blight,Maize Blight,0.9898800849914551,True
+545,Maize Blight,Maize Blight,0.880040168762207,True
+546,Maize Blight,Maize Blight,0.9711636900901794,True
+547,Maize Common Rust,Maize Common Rust,0.999751627445221,True
+548,Maize Common Rust,Maize Common Rust,0.9995937943458557,True
+549,Maize Common Rust,Maize Common Rust,0.9987375140190125,True
+550,Maize Common Rust,Maize Common Rust,0.999812662601471,True
+551,Maize Common Rust,Maize Common Rust,0.9998158812522888,True
+552,Maize Common Rust,Maize Common Rust,0.9992172718048096,True
+553,Maize Common Rust,Maize Common Rust,0.9687591791152954,True
+554,Maize Common Rust,Maize Common Rust,0.9999914169311523,True
+555,Maize Common Rust,Maize Common Rust,0.9966529011726379,True
+556,Maize Common Rust,Maize Common Rust,0.9527129530906677,True
+557,Maize Common Rust,Maize Common Rust,0.9999951124191284,True
+558,Maize Common Rust,Maize Common Rust,0.9992863535881042,True
+559,Maize Common Rust,Maize Common Rust,0.9987150430679321,True
+560,Maize Common Rust,Maize Common Rust,0.9994744658470154,True
+561,Maize Common Rust,Maize Common Rust,0.9941421151161194,True
+562,Maize Common Rust,Maize Common Rust,0.7895789742469788,True
+563,Maize Common Rust,Maize Common Rust,0.99920254945755,True
+564,Maize Common Rust,Maize Common Rust,0.9761571884155273,True
+565,Maize Common Rust,Maize Common Rust,0.9997579455375671,True
+566,Maize Common Rust,Maize Common Rust,0.9990142583847046,True
+567,Maize Common Rust,Maize Common Rust,0.6464812159538269,True
+568,Maize Common Rust,Maize Common Rust,0.9998490810394287,True
+569,Maize Common Rust,Maize Common Rust,0.9999758005142212,True
+570,Maize Common Rust,Maize Common Rust,0.998424768447876,True
+571,Maize Common Rust,Maize Common Rust,0.9999783039093018,True
+572,Maize Common Rust,Maize Common Rust,0.9994764924049377,True
+573,Maize Common Rust,Maize Common Rust,0.6608248949050903,True
+574,Maize Common Rust,Maize Common Rust,0.9994789958000183,True
+575,Maize Common Rust,Maize Common Rust,0.99544757604599,True
+576,Maize Common Rust,Maize Blight,0.9053733348846436,False
+577,Maize Common Rust,Maize Common Rust,0.9998805522918701,True
+578,Maize Common Rust,Maize Common Rust,0.9429231286048889,True
+579,Maize Common Rust,Maize Common Rust,0.9995144605636597,True
+580,Maize Common Rust,Maize Common Rust,0.9999387264251709,True
+581,Maize Common Rust,Maize Common Rust,0.9928804636001587,True
+582,Maize Common Rust,Maize Common Rust,0.9986194372177124,True
+583,Maize Common Rust,Maize Common Rust,0.9994112253189087,True
+584,Maize Common Rust,Maize Common Rust,0.9995532631874084,True
+585,Maize Common Rust,Maize Common Rust,0.9913462996482849,True
+586,Maize Common Rust,Maize Common Rust,0.9998582601547241,True
+587,Maize Common Rust,Maize Common Rust,0.9960570335388184,True
+588,Maize Common Rust,Maize Common Rust,0.9839808344841003,True
+589,Maize Common Rust,Maize Blight,0.5667979717254639,False
+590,Maize Common Rust,Maize Common Rust,0.9999605417251587,True
+591,Maize Common Rust,Maize Common Rust,0.9997616410255432,True
+592,Maize Common Rust,Maize Common Rust,0.9999980926513672,True
+593,Maize Common Rust,Maize Common Rust,0.9999579191207886,True
+594,Maize Common Rust,Maize Blight,0.6664934754371643,False
+595,Maize Common Rust,Maize Common Rust,0.8358719944953918,True
+596,Maize Common Rust,Maize Common Rust,0.9997468590736389,True
+597,Maize Common Rust,Maize Common Rust,0.9999113082885742,True
+598,Maize Common Rust,Maize Blight,0.5845654010772705,False
+599,Maize Common Rust,Maize Common Rust,0.8913289904594421,True
+600,Maize Common Rust,Maize Common Rust,0.9814303517341614,True
+601,Maize Common Rust,Maize Common Rust,0.9999476671218872,True
+602,Maize Common Rust,Maize Common Rust,0.9999490976333618,True
+603,Maize Common Rust,Maize Common Rust,0.9992284774780273,True
+604,Maize Common Rust,Maize Common Rust,0.9970839619636536,True
+605,Maize Common Rust,Maize Common Rust,0.9999450445175171,True
+606,Maize Common Rust,Maize Common Rust,0.999954342842102,True
+607,Maize Common Rust,Maize Common Rust,0.9999217987060547,True
+608,Maize Common Rust,Maize Common Rust,0.99944669008255,True
+609,Maize Common Rust,Maize Common Rust,0.9999353885650635,True
+610,Maize Common Rust,Maize Common Rust,0.4419792890548706,True
+611,Maize Common Rust,Maize Common Rust,0.9985836744308472,True
+612,Maize Common Rust,Maize Common Rust,0.9993651509284973,True
+613,Maize Common Rust,Maize Common Rust,0.9852123260498047,True
+614,Maize Common Rust,Maize Common Rust,0.9999202489852905,True
+615,Maize Common Rust,Maize Common Rust,0.9997060894966125,True
+616,Maize Common Rust,Maize Common Rust,0.9996098875999451,True
+617,Maize Common Rust,Maize Common Rust,0.9993719458580017,True
+618,Maize Common Rust,Maize Common Rust,0.9987993240356445,True
+619,Maize Common Rust,Maize Common Rust,0.9986662864685059,True
+620,Maize Common Rust,Maize Common Rust,0.9999791383743286,True
+621,Maize Common Rust,Maize Common Rust,0.742132306098938,True
+622,Maize Common Rust,Maize Common Rust,0.997886598110199,True
+623,Maize Common Rust,Maize Common Rust,0.9983617663383484,True
+624,Maize Common Rust,Maize Common Rust,0.9976068735122681,True
+625,Maize Common Rust,Maize Common Rust,0.9998247027397156,True
+626,Maize Common Rust,Maize Common Rust,0.9991022348403931,True
+627,Maize Common Rust,Maize Common Rust,0.9996263980865479,True
+628,Maize Common Rust,Maize Common Rust,0.6768633127212524,True
+629,Maize Common Rust,Maize Common Rust,0.8333777785301208,True
+630,Maize Common Rust,Maize Common Rust,0.9999771118164062,True
+631,Maize Common Rust,Maize Common Rust,0.9937926530838013,True
+632,Maize Common Rust,Maize Common Rust,0.9901565313339233,True
+633,Maize Common Rust,Maize Common Rust,0.9792440533638,True
+634,Maize Common Rust,Maize Common Rust,0.9998956918716431,True
+635,Maize Common Rust,Maize Common Rust,0.997692346572876,True
+636,Maize Common Rust,Maize Common Rust,0.9997128844261169,True
+637,Maize Common Rust,Maize Common Rust,0.9998962879180908,True
+638,Maize Common Rust,Maize Common Rust,0.9976643323898315,True
+639,Maize Common Rust,Maize Common Rust,0.3937678337097168,True
+640,Maize Common Rust,Maize Common Rust,0.9999203681945801,True
+641,Maize Common Rust,Maize Common Rust,0.9981756210327148,True
+642,Maize Common Rust,Maize Common Rust,0.9998292922973633,True
+643,Maize Common Rust,Maize Common Rust,0.9947558641433716,True
+644,Maize Common Rust,Maize Common Rust,0.9999715089797974,True
+645,Maize Common Rust,Maize Common Rust,0.9886476397514343,True
+646,Maize Common Rust,Maize Common Rust,0.998625636100769,True
+647,Maize Common Rust,Maize Common Rust,0.9988093376159668,True
+648,Maize Common Rust,Maize Common Rust,0.9997937083244324,True
+649,Maize Common Rust,Maize Common Rust,0.9794146418571472,True
+650,Maize Common Rust,Maize Common Rust,0.9998984336853027,True
+651,Maize Common Rust,Maize Common Rust,0.9992020726203918,True
+652,Maize Common Rust,Maize Common Rust,0.9988678693771362,True
+653,Maize Common Rust,Maize Common Rust,0.9950150847434998,True
+654,Maize Common Rust,Maize Common Rust,0.9994150400161743,True
+655,Maize Common Rust,Maize Common Rust,0.9952006340026855,True
+656,Maize Common Rust,Maize Common Rust,0.9999765157699585,True
+657,Maize Common Rust,Maize Common Rust,0.9301226735115051,True
+658,Maize Common Rust,Maize Common Rust,0.9998841285705566,True
+659,Maize Common Rust,Maize Common Rust,0.9997325539588928,True
+660,Maize Common Rust,Maize Common Rust,0.999497652053833,True
+661,Maize Common Rust,Maize Common Rust,0.9999951124191284,True
+662,Maize Common Rust,Maize Common Rust,0.9997419714927673,True
+663,Maize Common Rust,Maize Common Rust,0.9991663694381714,True
+664,Maize Common Rust,Maize Common Rust,0.9999682903289795,True
+665,Maize Common Rust,Maize Common Rust,0.9999872446060181,True
+666,Maize Common Rust,Maize Blight,0.6858252882957458,False
+667,Maize Common Rust,Maize Common Rust,0.9997242093086243,True
+668,Maize Common Rust,Maize Common Rust,0.9999685287475586,True
+669,Maize Common Rust,Maize Gray Leaf Spot,0.6485468149185181,False
+670,Maize Common Rust,Maize Common Rust,0.9999929666519165,True
+671,Maize Common Rust,Maize Common Rust,0.9999746084213257,True
+672,Maize Common Rust,Maize Common Rust,0.9958133101463318,True
+673,Maize Common Rust,Maize Common Rust,0.9999781847000122,True
+674,Maize Common Rust,Maize Common Rust,0.9989084005355835,True
+675,Maize Common Rust,Maize Common Rust,0.9999768733978271,True
+676,Maize Common Rust,Maize Common Rust,0.9882258176803589,True
+677,Maize Common Rust,Maize Common Rust,0.9999606609344482,True
+678,Maize Common Rust,Maize Common Rust,0.8719586133956909,True
+679,Maize Common Rust,Maize Common Rust,0.9972416162490845,True
+680,Maize Common Rust,Maize Common Rust,0.9999978542327881,True
+681,Maize Common Rust,Maize Common Rust,0.9282773733139038,True
+682,Maize Common Rust,Maize Common Rust,0.993966281414032,True
+683,Maize Common Rust,Maize Common Rust,0.9948339462280273,True
+684,Maize Common Rust,Maize Common Rust,0.9832899570465088,True
+685,Maize Common Rust,Maize Common Rust,0.9997084736824036,True
+686,Maize Common Rust,Maize Common Rust,0.9994614720344543,True
+687,Maize Common Rust,Maize Common Rust,0.9421877264976501,True
+688,Maize Common Rust,Maize Common Rust,0.9987621307373047,True
+689,Maize Common Rust,Maize Common Rust,0.9996871948242188,True
+690,Maize Common Rust,Maize Common Rust,0.997887909412384,True
+691,Maize Common Rust,Maize Common Rust,0.9699222445487976,True
+692,Maize Common Rust,Maize Common Rust,0.987468957901001,True
+693,Maize Common Rust,Maize Common Rust,0.9746901988983154,True
+694,Maize Common Rust,Maize Common Rust,0.9999890327453613,True
+695,Maize Common Rust,Maize Common Rust,0.9870235919952393,True
+696,Maize Common Rust,Maize Common Rust,0.629512369632721,True
+697,Maize Common Rust,Maize Common Rust,0.9998515844345093,True
+698,Maize Common Rust,Maize Common Rust,0.9907264709472656,True
+699,Maize Common Rust,Maize Common Rust,0.6959559321403503,True
+700,Maize Common Rust,Maize Common Rust,0.9870617985725403,True
+701,Maize Common Rust,Maize Common Rust,0.9979700446128845,True
+702,Maize Common Rust,Maize Common Rust,0.9999734163284302,True
+703,Maize Common Rust,Maize Common Rust,0.9998255372047424,True
+704,Maize Common Rust,Maize Common Rust,0.998254120349884,True
+705,Maize Common Rust,Maize Common Rust,0.9995763897895813,True
+706,Maize Common Rust,Maize Common Rust,0.9999973773956299,True
+707,Maize Common Rust,Maize Common Rust,0.9997156262397766,True
+708,Maize Common Rust,Maize Common Rust,0.9999552965164185,True
+709,Maize Common Rust,Maize Common Rust,0.9958286881446838,True
+710,Maize Common Rust,Maize Common Rust,0.9942141175270081,True
+711,Maize Common Rust,Maize Common Rust,0.9465053081512451,True
+712,Maize Common Rust,Maize Common Rust,0.9999771118164062,True
+713,Maize Common Rust,Maize Common Rust,0.9704424142837524,True
+714,Maize Common Rust,Maize Common Rust,0.9976407289505005,True
+715,Maize Common Rust,Maize Common Rust,0.7168046236038208,True
+716,Maize Common Rust,Maize Common Rust,0.9974870681762695,True
+717,Maize Common Rust,Maize Common Rust,0.6436198353767395,True
+718,Maize Common Rust,Maize Common Rust,0.9993405938148499,True
+719,Maize Common Rust,Maize Common Rust,0.9999330043792725,True
+720,Maize Common Rust,Maize Common Rust,0.9999504089355469,True
+721,Maize Common Rust,Maize Common Rust,0.999562680721283,True
+722,Maize Common Rust,Maize Common Rust,0.9999675750732422,True
+723,Maize Common Rust,Maize Blight,0.6381954550743103,False
+724,Maize Common Rust,Maize Common Rust,0.9994563460350037,True
+725,Maize Common Rust,Maize Common Rust,0.9997997879981995,True
+726,Maize Common Rust,Maize Common Rust,0.9345216155052185,True
+727,Maize Common Rust,Maize Common Rust,0.9999207258224487,True
+728,Maize Common Rust,Maize Common Rust,0.9998759031295776,True
+729,Maize Common Rust,Maize Common Rust,0.9980930685997009,True
+730,Maize Common Rust,Maize Common Rust,0.999582827091217,True
+731,Maize Common Rust,Maize Common Rust,0.9999247789382935,True
+732,Maize Common Rust,Maize Common Rust,0.9999959468841553,True
+733,Maize Common Rust,Maize Common Rust,0.9995964169502258,True
+734,Maize Common Rust,Maize Common Rust,0.9999243021011353,True
+735,Maize Common Rust,Maize Common Rust,0.9993589520454407,True
+736,Maize Common Rust,Maize Common Rust,0.9999501705169678,True
+737,Maize Common Rust,Maize Common Rust,0.9999333620071411,True
+738,Maize Common Rust,Maize Common Rust,0.998866081237793,True
+739,Maize Common Rust,Maize Common Rust,0.9989583492279053,True
+740,Maize Common Rust,Maize Common Rust,0.9997410178184509,True
+741,Maize Common Rust,Maize Common Rust,0.5679311752319336,True
+742,Maize Common Rust,Maize Common Rust,0.9999779462814331,True
+743,Maize Common Rust,Maize Common Rust,0.9995577931404114,True
+744,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9749270677566528,True
+745,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9994937181472778,True
+746,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.6772139668464661,True
+747,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9802827835083008,True
+748,Maize Gray Leaf Spot,Maize Blight,0.7907795906066895,False
+749,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9821984171867371,True
+750,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9386253952980042,True
+751,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.764152467250824,True
+752,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9921435117721558,True
+753,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9938934445381165,True
+754,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9592326879501343,True
+755,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8695111274719238,True
+756,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9996330738067627,True
+757,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9809290766716003,True
+758,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9947903156280518,True
+759,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8790791034698486,True
+760,Maize Gray Leaf Spot,Maize Blight,0.5976417064666748,False
+761,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9974767565727234,True
+762,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8470034003257751,True
+763,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9107323288917542,True
+764,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9851474165916443,True
+765,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9094052910804749,True
+766,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.7580691576004028,True
+767,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.985499918460846,True
+768,Maize Gray Leaf Spot,Maize Blight,0.6236088871955872,False
+769,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8808735609054565,True
+770,Maize Gray Leaf Spot,Maize Blight,0.9581550359725952,False
+771,Maize Gray Leaf Spot,Maize Blight,0.9213615655899048,False
+772,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9904452562332153,True
+773,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8038467764854431,True
+774,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8775557279586792,True
+775,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.7266837358474731,True
+776,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8825094699859619,True
+777,Maize Gray Leaf Spot,Maize Blight,0.5622836947441101,False
+778,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9077267646789551,True
+779,Maize Gray Leaf Spot,Maize Blight,0.9215534329414368,False
+780,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8349392414093018,True
+781,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9959127306938171,True
+782,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.6216297149658203,True
+783,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.672359049320221,True
+784,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.7280035614967346,True
+785,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9822580814361572,True
+786,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9610342979431152,True
+787,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.996955394744873,True
+788,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9950293898582458,True
+789,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.6947129964828491,True
+790,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9105637669563293,True
+791,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8448742628097534,True
+792,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9410204291343689,True
+793,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9272264838218689,True
+794,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8486742973327637,True
+795,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9414820671081543,True
+796,Maize Gray Leaf Spot,Maize Blight,0.916947603225708,False
+797,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8610200881958008,True
+798,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.7912072539329529,True
+799,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9247791767120361,True
+800,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.5695141553878784,True
+801,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.999876856803894,True
+802,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.7083821892738342,True
+803,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9997872710227966,True
+804,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9529150128364563,True
+805,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9901581406593323,True
+806,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.635812520980835,True
+807,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9371495842933655,True
+808,Maize Gray Leaf Spot,Maize Blight,0.8319860696792603,False
+809,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9900540113449097,True
+810,Maize Gray Leaf Spot,Maize Blight,0.7945140600204468,False
+811,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9687225222587585,True
+812,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.7180740237236023,True
+813,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9401697516441345,True
+814,Maize Gray Leaf Spot,Maize Blight,0.7542929649353027,False
+815,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9872534871101379,True
+816,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9987969398498535,True
+817,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8278052806854248,True
+818,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9466660022735596,True
+819,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9425380825996399,True
+820,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.5976589322090149,True
+821,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.7757536172866821,True
+822,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9965527057647705,True
+823,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.7730275392532349,True
+824,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.7975707054138184,True
+825,Maize Gray Leaf Spot,Maize Blight,0.9575945734977722,False
+826,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.8044281601905823,True
+827,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.967954158782959,True
+828,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9754026532173157,True
+829,Maize Gray Leaf Spot,Maize Common Rust,0.5463026762008667,False
+830,Maize Gray Leaf Spot,Maize Gray Leaf Spot,0.9725711345672607,True
+831,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9813932776451111,True
+832,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.6568958759307861,True
+833,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.6651223301887512,False
+834,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9752379655838013,True
+835,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.5576322674751282,True
+836,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.7225725650787354,True
+837,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9717968702316284,True
+838,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.8567920923233032,True
+839,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.8465548157691956,False
+840,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9422731995582581,True
+841,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9770697355270386,True
+842,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.8575229048728943,True
+843,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9138973355293274,True
+844,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.7997167706489563,True
+845,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9607727527618408,True
+846,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.6414284706115723,False
+847,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9080780744552612,True
+848,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9600727558135986,True
+849,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.6447722315788269,True
+850,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9969677329063416,True
+851,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.7305372357368469,False
+852,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9206971526145935,True
+853,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9734611511230469,True
+854,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.6405102610588074,True
+855,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.6719039082527161,False
+856,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9694644212722778,True
+857,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.5652703642845154,False
+858,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.5558624267578125,True
+859,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9647751450538635,True
+860,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.8749831914901733,True
+861,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9552879333496094,True
+862,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9615373015403748,True
+863,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9979221224784851,True
+864,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.6359682083129883,False
+865,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9879533052444458,True
+866,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.5548961758613586,False
+867,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9008843302726746,True
+868,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9463180303573608,True
+869,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.8080844283103943,False
+870,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.7218080759048462,True
+871,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9906108975410461,True
+872,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.874242901802063,True
+873,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9866577982902527,True
+874,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9830476641654968,True
+875,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9846744537353516,True
+876,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.7423224449157715,True
+877,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9484846591949463,True
+878,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.5468933582305908,True
+879,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9538182020187378,True
+880,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.5402765274047852,False
+881,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.9368022680282593,False
+882,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9971568584442139,True
+883,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.7404540181159973,False
+884,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9497473239898682,True
+885,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9197672009468079,True
+886,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9794778823852539,True
+887,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.9552000761032104,False
+888,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.8802669048309326,True
+889,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9678670167922974,True
+890,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9995614886283875,True
+891,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.6196696162223816,False
+892,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.6986766457557678,True
+893,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9757810235023499,True
+894,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.6018117070198059,True
+895,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.5844279527664185,True
+896,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.8641108274459839,True
+897,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.6067019104957581,True
+898,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9659685492515564,True
+899,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.8381877541542053,True
+900,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9888517260551453,True
+901,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.49457255005836487,True
+902,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9818674325942993,True
+903,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9141563773155212,True
+904,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9943392872810364,True
+905,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.5352132320404053,True
+906,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9490622282028198,True
+907,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9702267646789551,True
+908,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9990757703781128,True
+909,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9874864816665649,True
+910,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.7448787093162537,False
+911,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.7203059196472168,False
+912,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9827902317047119,True
+913,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.5972751975059509,True
+914,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9679266810417175,True
+915,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9980079531669617,True
+916,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9443340301513672,True
+917,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.8321055173873901,True
+918,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9785121083259583,True
+919,Rice Bacterial Leaf Blight,Rice Leaf Blast,0.9806556701660156,False
+920,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.6798467636108398,True
+921,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9955542683601379,True
+922,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.965331494808197,True
+923,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.8751486539840698,True
+924,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9678902626037598,True
+925,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9990622401237488,True
+926,Rice Bacterial Leaf Blight,Rice Bacterial Leaf Blight,0.9977518916130066,True
+927,Rice Leaf Blast,Rice Leaf Blast,0.8556569814682007,True
+928,Rice Leaf Blast,Rice Leaf Blast,0.6780414581298828,True
+929,Rice Leaf Blast,Rice Leaf Blast,0.9727898240089417,True
+930,Rice Leaf Blast,Rice Leaf Blast,0.9213230609893799,True
+931,Rice Leaf Blast,Rice Leaf Blast,0.5169093608856201,True
+932,Rice Leaf Blast,Rice Leaf Blast,0.8064679503440857,True
+933,Rice Leaf Blast,Rice Leaf Blast,0.8432551622390747,True
+934,Rice Leaf Blast,Rice Leaf Blast,0.8413254618644714,True
+935,Rice Leaf Blast,Rice Leaf Blast,0.9343265295028687,True
+936,Rice Leaf Blast,Rice Leaf Blast,0.8244764804840088,True
+937,Rice Leaf Blast,Rice Leaf Blast,0.9564319252967834,True
+938,Rice Leaf Blast,Rice Leaf Blast,0.9775248765945435,True
+939,Rice Leaf Blast,Rice Leaf Blast,0.7690786123275757,True
+940,Rice Leaf Blast,Rice Leaf Blast,0.6314134001731873,True
+941,Rice Leaf Blast,Rice Leaf Blast,0.8664863109588623,True
+942,Rice Leaf Blast,Rice Leaf Blast,0.9614909887313843,True
+943,Rice Leaf Blast,Rice Leaf Blast,0.7228630781173706,True
+944,Rice Leaf Blast,Rice Leaf Blast,0.6935977935791016,True
+945,Rice Leaf Blast,Rice Leaf Blast,0.9986920952796936,True
+946,Rice Leaf Blast,Rice Leaf Blast,0.9690198302268982,True
+947,Rice Leaf Blast,Rice Leaf Blast,0.7389850616455078,True
+948,Rice Leaf Blast,Rice Leaf Blast,0.9722710847854614,True
+949,Rice Leaf Blast,Rice Leaf Blast,0.9868446588516235,True
+950,Rice Leaf Blast,Rice Leaf Blast,0.9666122198104858,True
+951,Rice Leaf Blast,Rice Leaf Blast,0.918014407157898,True
+952,Rice Leaf Blast,Rice Leaf Blast,0.5696445107460022,True
+953,Rice Leaf Blast,Rice Leaf Blast,0.9070563912391663,True
+954,Rice Leaf Blast,Rice Leaf Blast,0.9727236032485962,True
+955,Rice Leaf Blast,Rice Leaf Blast,0.9314641952514648,True
+956,Rice Leaf Blast,Rice Leaf Blast,0.98912113904953,True
+957,Rice Leaf Blast,Rice Bacterial Leaf Blight,0.7308281660079956,False
+958,Rice Leaf Blast,Rice Leaf Blast,0.9683014154434204,True
+959,Rice Leaf Blast,Rice Leaf Blast,0.8959689736366272,True
+960,Rice Leaf Blast,Rice Leaf Blast,0.9339215755462646,True
+961,Rice Leaf Blast,Rice Leaf Blast,0.9902995824813843,True
+962,Rice Leaf Blast,Rice Leaf Blast,0.9982249140739441,True
+963,Rice Leaf Blast,Rice Leaf Blast,0.9166300892829895,True
+964,Rice Leaf Blast,Rice Leaf Blast,0.9976504445075989,True
+965,Rice Leaf Blast,Rice Leaf Blast,0.7719529271125793,True
+966,Rice Leaf Blast,Rice Leaf Blast,0.9907998442649841,True
+967,Rice Leaf Blast,Rice Leaf Blast,0.9247384071350098,True
+968,Rice Leaf Blast,Rice Leaf Blast,0.990818440914154,True
+969,Rice Leaf Blast,Rice Leaf Blast,0.9731682538986206,True
+970,Rice Leaf Blast,Rice Leaf Blast,0.8782941102981567,True
+971,Rice Leaf Blast,Rice Bacterial Leaf Blight,0.8174073696136475,False
+972,Rice Leaf Blast,Rice Leaf Blast,0.9878478050231934,True
+973,Rice Leaf Blast,Rice Leaf Blast,0.9819276332855225,True
+974,Rice Leaf Blast,Rice Bacterial Leaf Blight,0.5103204846382141,False
+975,Rice Leaf Blast,Rice Leaf Blast,0.9405477643013,True
+976,Rice Leaf Blast,Rice Leaf Blast,0.9590179920196533,True
+977,Rice Leaf Blast,Rice Leaf Blast,0.9764494895935059,True
+978,Rice Leaf Blast,Rice Leaf Blast,0.8356711864471436,True
+979,Rice Leaf Blast,Rice Leaf Blast,0.9567287564277649,True
+980,Rice Leaf Blast,Rice Leaf Blast,0.9554075002670288,True
+981,Rice Leaf Blast,Rice Leaf Blast,0.8290777802467346,True
+982,Rice Leaf Blast,Rice Leaf Blast,0.8904504776000977,True
+983,Rice Leaf Blast,Rice Leaf Blast,0.8231414556503296,True
+984,Rice Leaf Blast,Rice Leaf Blast,0.7773236632347107,True
+985,Rice Leaf Blast,Rice Leaf Blast,0.9515982866287231,True
+986,Rice Leaf Blast,Rice Leaf Blast,0.9450536370277405,True
+987,Rice Leaf Blast,Rice Leaf Blast,0.9096328020095825,True
+988,Rice Leaf Blast,Rice Leaf Blast,0.9625237584114075,True
+989,Rice Leaf Blast,Rice Leaf Blast,0.8157604932785034,True
+990,Rice Leaf Blast,Rice Leaf Blast,0.9779661297798157,True
+991,Rice Leaf Blast,Rice Leaf Blast,0.9979093670845032,True
+992,Rice Leaf Blast,Rice Leaf Blast,0.9912477731704712,True
+993,Rice Leaf Blast,Rice Leaf Blast,0.9826571345329285,True
+994,Rice Leaf Blast,Rice Leaf Blast,0.7773236632347107,True
+995,Rice Leaf Blast,Rice Leaf Blast,0.7469099760055542,True
+996,Rice Leaf Blast,Rice Leaf Blast,0.985801637172699,True
+997,Rice Leaf Blast,Rice Leaf Blast,0.9973428845405579,True
+998,Rice Leaf Blast,Rice Leaf Blast,0.9390351176261902,True
+999,Rice Leaf Blast,Rice Leaf Blast,0.9703623652458191,True
+1000,Rice Leaf Blast,Rice Leaf Blast,0.9948741793632507,True
+1001,Rice Leaf Blast,Rice Leaf Blast,0.8808997869491577,True
+1002,Rice Leaf Blast,Rice Leaf Blast,0.7461418509483337,True
+1003,Rice Leaf Blast,Rice Leaf Blast,0.8260245323181152,True
+1004,Rice Leaf Blast,Rice Leaf Blast,0.9884861707687378,True
+1005,Rice Leaf Blast,Rice Leaf Blast,0.9756897687911987,True
+1006,Rice Leaf Blast,Rice Leaf Blast,0.5972999334335327,True
+1007,Rice Leaf Blast,Rice Leaf Blast,0.9796484112739563,True
+1008,Rice Leaf Blast,Rice Bacterial Leaf Blight,0.579520046710968,False
+1009,Rice Leaf Blast,Rice Leaf Blast,0.8185456991195679,True
+1010,Rice Leaf Blast,Rice Leaf Blast,0.8805569410324097,True
+1011,Rice Leaf Blast,Rice Leaf Blast,0.938866913318634,True
+1012,Rice Leaf Blast,Rice Leaf Blast,0.9424921274185181,True
+1013,Rice Leaf Blast,Rice Leaf Blast,0.8597129583358765,True
+1014,Rice Leaf Blast,Rice Leaf Blast,0.7841742634773254,True
+1015,Rice Leaf Blast,Rice Bacterial Leaf Blight,0.7013811469078064,False
+1016,Rice Leaf Blast,Rice Leaf Blast,0.9153952598571777,True
+1017,Rice Leaf Blast,Rice Leaf Blast,0.957145094871521,True
+1018,Rice Leaf Blast,Rice Leaf Blast,0.9613519310951233,True
+1019,Rice Leaf Blast,Rice Leaf Blast,0.997765064239502,True
+1020,Rice Leaf Blast,Rice Leaf Blast,0.8904369473457336,True
+1021,Rice Leaf Blast,Rice Leaf Blast,0.9871394038200378,True
+1022,Rice Leaf Blast,Rice Leaf Blast,0.9903708100318909,True
+1023,Tomato Bacterial Spot,Tomato Septoria Leaf Spot,0.502951979637146,False
+1024,Tomato Bacterial Spot,Tomato Bacterial Spot,0.6678707003593445,True
+1025,Tomato Bacterial Spot,Tomato Septoria Leaf Spot,0.543822705745697,False
+1026,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8110998272895813,True
+1027,Tomato Bacterial Spot,Tomato Target Spot,0.8995342254638672,False
+1028,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8708387613296509,True
+1029,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8676613569259644,True
+1030,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9581067562103271,True
+1031,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9814589023590088,True
+1032,Tomato Bacterial Spot,Tomato Bacterial Spot,0.7146766781806946,True
+1033,Tomato Bacterial Spot,Tomato Bacterial Spot,0.7319202423095703,True
+1034,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9916593432426453,True
+1035,Tomato Bacterial Spot,Tomato Target Spot,0.8441711664199829,False
+1036,Tomato Bacterial Spot,Tomato Bacterial Spot,0.7943453192710876,True
+1037,Tomato Bacterial Spot,Tomato Septoria Leaf Spot,0.7547768950462341,False
+1038,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9928319454193115,True
+1039,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9779927730560303,True
+1040,Tomato Bacterial Spot,Tomato Target Spot,0.7024532556533813,False
+1041,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9294915199279785,True
+1042,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9910085797309875,True
+1043,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8689394593238831,True
+1044,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9173336625099182,True
+1045,Tomato Bacterial Spot,Tomato Bacterial Spot,0.7670947909355164,True
+1046,Tomato Bacterial Spot,Tomato Septoria Leaf Spot,0.972077488899231,False
+1047,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9588561654090881,True
+1048,Tomato Bacterial Spot,Tomato Target Spot,0.5292909741401672,False
+1049,Tomato Bacterial Spot,Tomato Bacterial Spot,0.7109134793281555,True
+1050,Tomato Bacterial Spot,Tomato Septoria Leaf Spot,0.7811113595962524,False
+1051,Tomato Bacterial Spot,Tomato Bacterial Spot,0.4190232455730438,True
+1052,Tomato Bacterial Spot,Tomato Bacterial Spot,0.4552622139453888,True
+1053,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9734199643135071,True
+1054,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9640885591506958,True
+1055,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9879379868507385,True
+1056,Tomato Bacterial Spot,Tomato Bacterial Spot,0.7766104936599731,True
+1057,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9777094125747681,True
+1058,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9844588041305542,True
+1059,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9899285435676575,True
+1060,Tomato Bacterial Spot,Tomato Target Spot,0.5979365706443787,False
+1061,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8969538807868958,True
+1062,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8477572202682495,True
+1063,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9576214551925659,True
+1064,Tomato Bacterial Spot,Tomato Septoria Leaf Spot,0.9285548329353333,False
+1065,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8925473690032959,True
+1066,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8755389451980591,True
+1067,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9943686127662659,True
+1068,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9960434436798096,True
+1069,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9835107326507568,True
+1070,Tomato Bacterial Spot,Tomato Early Blight,0.3918624222278595,False
+1071,Tomato Bacterial Spot,Tomato Target Spot,0.6487928628921509,False
+1072,Tomato Bacterial Spot,Tomato Bacterial Spot,0.6030953526496887,True
+1073,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9913253784179688,True
+1074,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9989175796508789,True
+1075,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9635923504829407,True
+1076,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8774664402008057,True
+1077,Tomato Bacterial Spot,Tomato Bacterial Spot,0.812077522277832,True
+1078,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9681510925292969,True
+1079,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9713284373283386,True
+1080,Tomato Bacterial Spot,Tomato Target Spot,0.5396021008491516,False
+1081,Tomato Bacterial Spot,Tomato Bacterial Spot,0.942906379699707,True
+1082,Tomato Bacterial Spot,Tomato Bacterial Spot,0.722585916519165,True
+1083,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9880437254905701,True
+1084,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8463956117630005,True
+1085,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8146147727966309,True
+1086,Tomato Bacterial Spot,Tomato Bacterial Spot,0.3432970643043518,True
+1087,Tomato Bacterial Spot,Tomato Yellow Leaf Curl Virus,0.45172470808029175,False
+1088,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9951701760292053,True
+1089,Tomato Bacterial Spot,Tomato Bacterial Spot,0.6878345608711243,True
+1090,Tomato Bacterial Spot,Tomato Septoria Leaf Spot,0.6358004212379456,False
+1091,Tomato Bacterial Spot,Tomato Target Spot,0.8656579256057739,False
+1092,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9803828001022339,True
+1093,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9287424683570862,True
+1094,Tomato Bacterial Spot,Tomato Bacterial Spot,0.976045548915863,True
+1095,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9945939183235168,True
+1096,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8918299674987793,True
+1097,Tomato Bacterial Spot,Tomato Bacterial Spot,0.978457510471344,True
+1098,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9401282072067261,True
+1099,Tomato Bacterial Spot,Tomato Bacterial Spot,0.5843163728713989,True
+1100,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8384006023406982,True
+1101,Tomato Bacterial Spot,Tomato Bacterial Spot,0.6003073453903198,True
+1102,Tomato Bacterial Spot,Tomato Bacterial Spot,0.6864957213401794,True
+1103,Tomato Bacterial Spot,Tomato Bacterial Spot,0.863078236579895,True
+1104,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9428468346595764,True
+1105,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9052603840827942,True
+1106,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9697368741035461,True
+1107,Tomato Bacterial Spot,Tomato Bacterial Spot,0.6522231101989746,True
+1108,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8415910601615906,True
+1109,Tomato Bacterial Spot,Tomato Late Blight,0.5300437211990356,False
+1110,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9824166297912598,True
+1111,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9470798373222351,True
+1112,Tomato Bacterial Spot,Tomato Bacterial Spot,0.5064896941184998,True
+1113,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9862512350082397,True
+1114,Tomato Bacterial Spot,Tomato Target Spot,0.5741546154022217,False
+1115,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8249155282974243,True
+1116,Tomato Bacterial Spot,Tomato Target Spot,0.49364063143730164,False
+1117,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9871410131454468,True
+1118,Tomato Bacterial Spot,Tomato Bacterial Spot,0.8072922825813293,True
+1119,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9663625955581665,True
+1120,Tomato Bacterial Spot,Tomato Bacterial Spot,0.966571033000946,True
+1121,Tomato Bacterial Spot,Tomato Septoria Leaf Spot,0.4269760549068451,False
+1122,Tomato Bacterial Spot,Tomato Bacterial Spot,0.9691188931465149,True
+1123,Tomato Early Blight,Tomato Late Blight,0.6560522317886353,False
+1124,Tomato Early Blight,Tomato Early Blight,0.5515132546424866,True
+1125,Tomato Early Blight,Tomato Late Blight,0.4992356598377228,False
+1126,Tomato Early Blight,Tomato Early Blight,0.998230516910553,True
+1127,Tomato Early Blight,Tomato Early Blight,0.9899646639823914,True
+1128,Tomato Early Blight,Tomato Early Blight,0.5944133400917053,True
+1129,Tomato Early Blight,Tomato Target Spot,0.4846891462802887,False
+1130,Tomato Early Blight,Tomato Early Blight,0.541404128074646,True
+1131,Tomato Early Blight,Tomato Early Blight,0.9982628226280212,True
+1132,Tomato Early Blight,Tomato Early Blight,0.7870998382568359,True
+1133,Tomato Early Blight,Tomato Early Blight,0.9542372226715088,True
+1134,Tomato Early Blight,Tomato Early Blight,0.976870059967041,True
+1135,Tomato Early Blight,Tomato Early Blight,0.9969927072525024,True
+1136,Tomato Early Blight,Tomato Late Blight,0.5534738302230835,False
+1137,Tomato Early Blight,Tomato Early Blight,0.7669563293457031,True
+1138,Tomato Early Blight,Tomato Early Blight,0.8983561396598816,True
+1139,Tomato Early Blight,Tomato Early Blight,0.36588427424430847,True
+1140,Tomato Early Blight,Tomato Early Blight,0.6058355569839478,True
+1141,Tomato Early Blight,Tomato Early Blight,0.986063539981842,True
+1142,Tomato Early Blight,Tomato Spider Mites,0.35793036222457886,False
+1143,Tomato Early Blight,Tomato Early Blight,0.9957772493362427,True
+1144,Tomato Early Blight,Tomato Early Blight,0.9325647354125977,True
+1145,Tomato Early Blight,Tomato Early Blight,0.9011349678039551,True
+1146,Tomato Early Blight,Tomato Early Blight,0.9984692931175232,True
+1147,Tomato Early Blight,Tomato Early Blight,0.9170558452606201,True
+1148,Tomato Early Blight,Tomato Target Spot,0.4004453718662262,False
+1149,Tomato Early Blight,Tomato Early Blight,0.8383099436759949,True
+1150,Tomato Early Blight,Tomato Leaf Mold,0.618151843547821,False
+1151,Tomato Early Blight,Tomato Early Blight,0.9688058495521545,True
+1152,Tomato Early Blight,Tomato Early Blight,0.9993523955345154,True
+1153,Tomato Early Blight,Tomato Early Blight,0.40232330560684204,True
+1154,Tomato Early Blight,Tomato Early Blight,0.7601453065872192,True
+1155,Tomato Early Blight,Tomato Target Spot,0.5331236124038696,False
+1156,Tomato Early Blight,Tomato Early Blight,0.9336985945701599,True
+1157,Tomato Early Blight,Tomato Septoria Leaf Spot,0.6011527180671692,False
+1158,Tomato Early Blight,Tomato Early Blight,0.3219158947467804,True
+1159,Tomato Early Blight,Tomato Early Blight,0.9925313591957092,True
+1160,Tomato Early Blight,Tomato Early Blight,0.9402523636817932,True
+1161,Tomato Early Blight,Tomato Early Blight,0.9928537011146545,True
+1162,Tomato Early Blight,Tomato Early Blight,0.6437560319900513,True
+1163,Tomato Early Blight,Tomato Early Blight,0.963022768497467,True
+1164,Tomato Early Blight,Tomato Early Blight,0.9998181462287903,True
+1165,Tomato Early Blight,Tomato Early Blight,0.9466369152069092,True
+1166,Tomato Early Blight,Tomato Early Blight,0.8625641465187073,True
+1167,Tomato Early Blight,Tomato Early Blight,0.7798110842704773,True
+1168,Tomato Early Blight,Tomato Early Blight,0.8016945123672485,True
+1169,Tomato Early Blight,Tomato Early Blight,0.9181951284408569,True
+1170,Tomato Early Blight,Tomato Early Blight,0.728729784488678,True
+1171,Tomato Early Blight,Tomato Early Blight,0.9255905747413635,True
+1172,Tomato Early Blight,Tomato Late Blight,0.5691899061203003,False
+1173,Tomato Early Blight,Tomato Early Blight,0.9998914003372192,True
+1174,Tomato Early Blight,Tomato Early Blight,0.9853491187095642,True
+1175,Tomato Early Blight,Tomato Early Blight,0.6428987383842468,True
+1176,Tomato Early Blight,Tomato Early Blight,0.8571725487709045,True
+1177,Tomato Early Blight,Tomato Early Blight,0.9793501496315002,True
+1178,Tomato Early Blight,Tomato Early Blight,0.9156545400619507,True
+1179,Tomato Early Blight,Tomato Leaf Mold,0.7715376019477844,False
+1180,Tomato Early Blight,Tomato Early Blight,0.9664646983146667,True
+1181,Tomato Early Blight,Tomato Early Blight,0.808388888835907,True
+1182,Tomato Early Blight,Tomato Early Blight,0.9978675842285156,True
+1183,Tomato Early Blight,Tomato Early Blight,0.9647808074951172,True
+1184,Tomato Early Blight,Tomato Early Blight,0.9933231472969055,True
+1185,Tomato Early Blight,Tomato Septoria Leaf Spot,0.7803577780723572,False
+1186,Tomato Early Blight,Tomato Early Blight,0.9824068546295166,True
+1187,Tomato Early Blight,Tomato Early Blight,0.9657567739486694,True
+1188,Tomato Early Blight,Tomato Early Blight,0.850253701210022,True
+1189,Tomato Early Blight,Tomato Target Spot,0.8872388005256653,False
+1190,Tomato Early Blight,Tomato Early Blight,0.5805159211158752,True
+1191,Tomato Early Blight,Tomato Early Blight,0.9644859433174133,True
+1192,Tomato Early Blight,Tomato Early Blight,0.9824727773666382,True
+1193,Tomato Early Blight,Tomato Early Blight,0.8309496641159058,True
+1194,Tomato Early Blight,Tomato Target Spot,0.7208467125892639,False
+1195,Tomato Early Blight,Tomato Target Spot,0.5012757778167725,False
+1196,Tomato Early Blight,Tomato Early Blight,0.8998858332633972,True
+1197,Tomato Early Blight,Tomato Early Blight,0.9963753819465637,True
+1198,Tomato Early Blight,Tomato Early Blight,0.9974337220191956,True
+1199,Tomato Early Blight,Tomato Early Blight,0.9769209027290344,True
+1200,Tomato Early Blight,Tomato Early Blight,0.6681085824966431,True
+1201,Tomato Early Blight,Tomato Early Blight,0.9612535834312439,True
+1202,Tomato Early Blight,Tomato Early Blight,0.8889079093933105,True
+1203,Tomato Early Blight,Tomato Early Blight,0.7960655093193054,True
+1204,Tomato Early Blight,Tomato Early Blight,0.954643189907074,True
+1205,Tomato Early Blight,Tomato Early Blight,0.9950214624404907,True
+1206,Tomato Early Blight,Tomato Septoria Leaf Spot,0.44194573163986206,False
+1207,Tomato Early Blight,Tomato Early Blight,0.9974424839019775,True
+1208,Tomato Early Blight,Tomato Early Blight,0.7967060208320618,True
+1209,Tomato Early Blight,Tomato Early Blight,0.6480273008346558,True
+1210,Tomato Early Blight,Tomato Early Blight,0.798878014087677,True
+1211,Tomato Early Blight,Tomato Early Blight,0.9976760745048523,True
+1212,Tomato Early Blight,Tomato Early Blight,0.9986887574195862,True
+1213,Tomato Early Blight,Tomato Early Blight,0.9995502829551697,True
+1214,Tomato Early Blight,Tomato Early Blight,0.9986603260040283,True
+1215,Tomato Early Blight,Tomato Early Blight,0.9982727766036987,True
+1216,Tomato Early Blight,Tomato Early Blight,0.4225228726863861,True
+1217,Tomato Early Blight,Tomato Early Blight,0.9997699856758118,True
+1218,Tomato Early Blight,Tomato Early Blight,0.9992850422859192,True
+1219,Tomato Early Blight,Tomato Early Blight,0.9707136154174805,True
+1220,Tomato Early Blight,Tomato Early Blight,0.7208070755004883,True
+1221,Tomato Early Blight,Tomato Target Spot,0.8653721809387207,False
+1222,Tomato Early Blight,Tomato Early Blight,0.9843263030052185,True
+1223,Tomato Late Blight,Tomato Late Blight,0.9686756134033203,True
+1224,Tomato Late Blight,Tomato Late Blight,0.9587101340293884,True
+1225,Tomato Late Blight,Tomato Late Blight,0.9799754023551941,True
+1226,Tomato Late Blight,Tomato Late Blight,0.9899761080741882,True
+1227,Tomato Late Blight,Tomato Late Blight,0.9986947178840637,True
+1228,Tomato Late Blight,Tomato Late Blight,0.997919499874115,True
+1229,Tomato Late Blight,Tomato Early Blight,0.8009869456291199,False
+1230,Tomato Late Blight,Tomato Late Blight,0.9843721985816956,True
+1231,Tomato Late Blight,Tomato Late Blight,0.934719443321228,True
+1232,Tomato Late Blight,Tomato Late Blight,0.9957114458084106,True
+1233,Tomato Late Blight,Tomato Late Blight,0.9752559065818787,True
+1234,Tomato Late Blight,Tomato Late Blight,0.99524986743927,True
+1235,Tomato Late Blight,Tomato Late Blight,0.9543253779411316,True
+1236,Tomato Late Blight,Tomato Late Blight,0.5811966061592102,True
+1237,Tomato Late Blight,Tomato Tomato Mosaic Virus,0.5649427175521851,False
+1238,Tomato Late Blight,Tomato Late Blight,0.9901828169822693,True
+1239,Tomato Late Blight,Tomato Late Blight,0.9996333122253418,True
+1240,Tomato Late Blight,Tomato Late Blight,0.9998654127120972,True
+1241,Tomato Late Blight,Tomato Late Blight,0.981646716594696,True
+1242,Tomato Late Blight,Tomato Late Blight,0.9995936751365662,True
+1243,Tomato Late Blight,Tomato Late Blight,0.9857617616653442,True
+1244,Tomato Late Blight,Tomato Late Blight,0.9752141833305359,True
+1245,Tomato Late Blight,Tomato Early Blight,0.9218202829360962,False
+1246,Tomato Late Blight,Tomato Late Blight,0.7409794926643372,True
+1247,Tomato Late Blight,Tomato Late Blight,0.6097590923309326,True
+1248,Tomato Late Blight,Tomato Late Blight,0.9997425675392151,True
+1249,Tomato Late Blight,Tomato Early Blight,0.7240520119667053,False
+1250,Tomato Late Blight,Tomato Late Blight,0.9998725652694702,True
+1251,Tomato Late Blight,Tomato Late Blight,0.9991335272789001,True
+1252,Tomato Late Blight,Tomato Late Blight,0.9749374985694885,True
+1253,Tomato Late Blight,Tomato Late Blight,0.983871340751648,True
+1254,Tomato Late Blight,Tomato Late Blight,0.9858980178833008,True
+1255,Tomato Late Blight,Tomato Late Blight,0.7480644583702087,True
+1256,Tomato Late Blight,Tomato Late Blight,0.4786199927330017,True
+1257,Tomato Late Blight,Tomato Late Blight,0.6626437902450562,True
+1258,Tomato Late Blight,Tomato Late Blight,0.9938353300094604,True
+1259,Tomato Late Blight,Tomato Early Blight,0.5191258192062378,False
+1260,Tomato Late Blight,Tomato Late Blight,0.9997947812080383,True
+1261,Tomato Late Blight,Tomato Late Blight,0.6884797215461731,True
+1262,Tomato Late Blight,Tomato Late Blight,0.9988981485366821,True
+1263,Tomato Late Blight,Tomato Late Blight,0.7668179273605347,True
+1264,Tomato Late Blight,Tomato Late Blight,0.9997575879096985,True
+1265,Tomato Late Blight,Tomato Late Blight,0.8824120759963989,True
+1266,Tomato Late Blight,Tomato Late Blight,0.9999105930328369,True
+1267,Tomato Late Blight,Tomato Late Blight,0.5981255769729614,True
+1268,Tomato Late Blight,Tomato Late Blight,0.999904990196228,True
+1269,Tomato Late Blight,Tomato Leaf Mold,0.717258870601654,False
+1270,Tomato Late Blight,Tomato Late Blight,0.9998605251312256,True
+1271,Tomato Late Blight,Tomato Late Blight,0.9093380570411682,True
+1272,Tomato Late Blight,Maize Common Rust,0.5229681730270386,False
+1273,Tomato Late Blight,Tomato Late Blight,0.7732597589492798,True
+1274,Tomato Late Blight,Tomato Late Blight,0.970674991607666,True
+1275,Tomato Late Blight,Tomato Late Blight,0.8167722821235657,True
+1276,Tomato Late Blight,Tomato Late Blight,0.5872286558151245,True
+1277,Tomato Late Blight,Tomato Late Blight,0.9953116774559021,True
+1278,Tomato Late Blight,Tomato Late Blight,0.9991581439971924,True
+1279,Tomato Late Blight,Tomato Late Blight,0.9459904432296753,True
+1280,Tomato Late Blight,Tomato Late Blight,0.8264684677124023,True
+1281,Tomato Late Blight,Tomato Late Blight,0.9976800084114075,True
+1282,Tomato Late Blight,Tomato Late Blight,0.9520819187164307,True
+1283,Tomato Late Blight,Tomato Late Blight,0.5977641940116882,True
+1284,Tomato Late Blight,Tomato Late Blight,0.9906089305877686,True
+1285,Tomato Late Blight,Tomato Late Blight,0.9643434882164001,True
+1286,Tomato Late Blight,Tomato Late Blight,0.9355854392051697,True
+1287,Tomato Late Blight,Tomato Late Blight,0.9132132530212402,True
+1288,Tomato Late Blight,Tomato Late Blight,0.9998641014099121,True
+1289,Tomato Late Blight,Tomato Late Blight,0.9971465468406677,True
+1290,Tomato Late Blight,Tomato Spider Mites,0.586867094039917,False
+1291,Tomato Late Blight,Tomato Late Blight,0.9984245300292969,True
+1292,Tomato Late Blight,Tomato Late Blight,0.998784601688385,True
+1293,Tomato Late Blight,Tomato Late Blight,0.9999264478683472,True
+1294,Tomato Late Blight,Tomato Late Blight,0.9977579712867737,True
+1295,Tomato Late Blight,Tomato Late Blight,0.9748007655143738,True
+1296,Tomato Late Blight,Tomato Late Blight,0.9977830052375793,True
+1297,Tomato Late Blight,Tomato Late Blight,0.9992628693580627,True
+1298,Tomato Late Blight,Tomato Late Blight,0.9066380858421326,True
+1299,Tomato Late Blight,Tomato Late Blight,0.9595212936401367,True
+1300,Tomato Late Blight,Tomato Early Blight,0.5570625066757202,False
+1301,Tomato Late Blight,Tomato Late Blight,0.9965524673461914,True
+1302,Tomato Late Blight,Tomato Early Blight,0.8768620491027832,False
+1303,Tomato Late Blight,Tomato Late Blight,0.9795978665351868,True
+1304,Tomato Late Blight,Tomato Late Blight,0.995371401309967,True
+1305,Tomato Late Blight,Tomato Late Blight,0.9978766441345215,True
+1306,Tomato Late Blight,Tomato Late Blight,0.8047006130218506,True
+1307,Tomato Late Blight,Tomato Late Blight,0.9923465251922607,True
+1308,Tomato Late Blight,Tomato Late Blight,0.818633496761322,True
+1309,Tomato Late Blight,Tomato Late Blight,0.9961469173431396,True
+1310,Tomato Late Blight,Tomato Late Blight,0.9866655468940735,True
+1311,Tomato Late Blight,Tomato Late Blight,0.989596426486969,True
+1312,Tomato Late Blight,Tomato Late Blight,0.9923918843269348,True
+1313,Tomato Late Blight,Tomato Late Blight,0.9979684948921204,True
+1314,Tomato Late Blight,Tomato Late Blight,0.9992940425872803,True
+1315,Tomato Late Blight,Tomato Late Blight,0.8582842946052551,True
+1316,Tomato Late Blight,Tomato Late Blight,0.9973548650741577,True
+1317,Tomato Late Blight,Tomato Late Blight,0.9987872242927551,True
+1318,Tomato Late Blight,Tomato Late Blight,0.9999289512634277,True
+1319,Tomato Late Blight,Tomato Late Blight,0.9827590584754944,True
+1320,Tomato Late Blight,Tomato Early Blight,0.7216548323631287,False
+1321,Tomato Late Blight,Tomato Late Blight,0.9998134970664978,True
+1322,Tomato Late Blight,Tomato Late Blight,0.8996509313583374,True
+1323,Tomato Leaf Mold,Tomato Leaf Mold,0.9999909400939941,True
+1324,Tomato Leaf Mold,Tomato Leaf Mold,0.4567718505859375,True
+1325,Tomato Leaf Mold,Tomato Leaf Mold,0.9985935091972351,True
+1326,Tomato Leaf Mold,Tomato Leaf Mold,0.9457769989967346,True
+1327,Tomato Leaf Mold,Tomato Leaf Mold,0.4655415415763855,True
+1328,Tomato Leaf Mold,Tomato Leaf Mold,0.9942643046379089,True
+1329,Tomato Leaf Mold,Tomato Leaf Mold,0.9953539371490479,True
+1330,Tomato Leaf Mold,Tomato Early Blight,0.7923217415809631,False
+1331,Tomato Leaf Mold,Tomato Leaf Mold,0.7041813135147095,True
+1332,Tomato Leaf Mold,Tomato Leaf Mold,0.7561784386634827,True
+1333,Tomato Leaf Mold,Tomato Leaf Mold,0.9978079199790955,True
+1334,Tomato Leaf Mold,Tomato Leaf Mold,0.9988346695899963,True
+1335,Tomato Leaf Mold,Tomato Leaf Mold,0.9999635219573975,True
+1336,Tomato Leaf Mold,Tomato Leaf Mold,0.9930001497268677,True
+1337,Tomato Leaf Mold,Tomato Leaf Mold,0.9183302521705627,True
+1338,Tomato Leaf Mold,Tomato Leaf Mold,0.9373461604118347,True
+1339,Tomato Leaf Mold,Tomato Leaf Mold,0.9036655426025391,True
+1340,Tomato Leaf Mold,Tomato Leaf Mold,0.9950698614120483,True
+1341,Tomato Leaf Mold,Tomato Leaf Mold,0.8701087832450867,True
+1342,Tomato Leaf Mold,Tomato Leaf Mold,0.9610124826431274,True
+1343,Tomato Leaf Mold,Tomato Leaf Mold,0.9869374632835388,True
+1344,Tomato Leaf Mold,Tomato Leaf Mold,0.9766601324081421,True
+1345,Tomato Leaf Mold,Tomato Leaf Mold,0.9931046366691589,True
+1346,Tomato Leaf Mold,Tomato Leaf Mold,0.9324552416801453,True
+1347,Tomato Leaf Mold,Tomato Leaf Mold,0.9313104152679443,True
+1348,Tomato Leaf Mold,Tomato Leaf Mold,0.9677304625511169,True
+1349,Tomato Leaf Mold,Tomato Leaf Mold,0.9743301272392273,True
+1350,Tomato Leaf Mold,Tomato Leaf Mold,0.9973681569099426,True
+1351,Tomato Leaf Mold,Tomato Leaf Mold,0.969070315361023,True
+1352,Tomato Leaf Mold,Tomato Leaf Mold,0.8653388023376465,True
+1353,Tomato Leaf Mold,Tomato Leaf Mold,0.9898763298988342,True
+1354,Tomato Leaf Mold,Tomato Leaf Mold,0.9915904402732849,True
+1355,Tomato Leaf Mold,Tomato Leaf Mold,0.9107699990272522,True
+1356,Tomato Leaf Mold,Tomato Leaf Mold,0.9992000460624695,True
+1357,Tomato Leaf Mold,Tomato Spider Mites,0.7783509492874146,False
+1358,Tomato Leaf Mold,Tomato Leaf Mold,0.9299805760383606,True
+1359,Tomato Leaf Mold,Tomato Leaf Mold,0.9865075349807739,True
+1360,Tomato Leaf Mold,Tomato Leaf Mold,0.9967432618141174,True
+1361,Tomato Leaf Mold,Tomato Leaf Mold,0.8174945116043091,True
+1362,Tomato Leaf Mold,Tomato Leaf Mold,0.736518383026123,True
+1363,Tomato Leaf Mold,Tomato Leaf Mold,0.9148944616317749,True
+1364,Tomato Leaf Mold,Tomato Leaf Mold,0.6074036359786987,True
+1365,Tomato Leaf Mold,Tomato Spider Mites,0.3518345355987549,False
+1366,Tomato Leaf Mold,Tomato Leaf Mold,0.9988123178482056,True
+1367,Tomato Leaf Mold,Tomato Leaf Mold,0.9995594620704651,True
+1368,Tomato Leaf Mold,Tomato Leaf Mold,0.9774630069732666,True
+1369,Tomato Leaf Mold,Tomato Leaf Mold,0.9709709286689758,True
+1370,Tomato Leaf Mold,Tomato Leaf Mold,0.9976939558982849,True
+1371,Tomato Leaf Mold,Tomato Leaf Mold,0.995551347732544,True
+1372,Tomato Leaf Mold,Tomato Leaf Mold,0.9804795980453491,True
+1373,Tomato Leaf Mold,Tomato Late Blight,0.616439938545227,False
+1374,Tomato Leaf Mold,Tomato Leaf Mold,0.9928053021430969,True
+1375,Tomato Leaf Mold,Tomato Leaf Mold,0.9923761487007141,True
+1376,Tomato Leaf Mold,Tomato Leaf Mold,0.9997712969779968,True
+1377,Tomato Leaf Mold,Tomato Leaf Mold,0.9334894418716431,True
+1378,Tomato Leaf Mold,Tomato Leaf Mold,0.9988526105880737,True
+1379,Tomato Leaf Mold,Tomato Leaf Mold,0.9982049465179443,True
+1380,Tomato Leaf Mold,Tomato Leaf Mold,0.9855973124504089,True
+1381,Tomato Leaf Mold,Tomato Leaf Mold,0.9997410178184509,True
+1382,Tomato Leaf Mold,Tomato Leaf Mold,0.9968885779380798,True
+1383,Tomato Leaf Mold,Tomato Leaf Mold,0.9720425009727478,True
+1384,Tomato Leaf Mold,Tomato Leaf Mold,0.9998137354850769,True
+1385,Tomato Leaf Mold,Tomato Leaf Mold,0.7274673581123352,True
+1386,Tomato Leaf Mold,Tomato Leaf Mold,0.9816995859146118,True
+1387,Tomato Leaf Mold,Tomato Leaf Mold,0.985903799533844,True
+1388,Tomato Leaf Mold,Tomato Leaf Mold,0.9998025298118591,True
+1389,Tomato Leaf Mold,Tomato Leaf Mold,0.9285334348678589,True
+1390,Tomato Leaf Mold,Tomato Leaf Mold,0.9979212880134583,True
+1391,Tomato Leaf Mold,Tomato Leaf Mold,0.9961429238319397,True
+1392,Tomato Leaf Mold,Tomato Leaf Mold,0.999969482421875,True
+1393,Tomato Leaf Mold,Tomato Leaf Mold,0.7658287882804871,True
+1394,Tomato Leaf Mold,Tomato Leaf Mold,0.8412739038467407,True
+1395,Tomato Leaf Mold,Tomato Leaf Mold,0.9975963234901428,True
+1396,Tomato Leaf Mold,Tomato Leaf Mold,0.9960417747497559,True
+1397,Tomato Leaf Mold,Tomato Leaf Mold,0.9993467926979065,True
+1398,Tomato Leaf Mold,Tomato Leaf Mold,0.9983623623847961,True
+1399,Tomato Leaf Mold,Tomato Leaf Mold,0.908214807510376,True
+1400,Tomato Leaf Mold,Tomato Leaf Mold,0.9995405673980713,True
+1401,Tomato Leaf Mold,Tomato Leaf Mold,0.9999498128890991,True
+1402,Tomato Leaf Mold,Tomato Leaf Mold,0.8790677785873413,True
+1403,Tomato Leaf Mold,Tomato Leaf Mold,0.9993855953216553,True
+1404,Tomato Leaf Mold,Tomato Leaf Mold,0.956089973449707,True
+1405,Tomato Leaf Mold,Tomato Leaf Mold,0.9775447845458984,True
+1406,Tomato Leaf Mold,Tomato Leaf Mold,0.9990261793136597,True
+1407,Tomato Leaf Mold,Tomato Leaf Mold,0.9922798871994019,True
+1408,Tomato Leaf Mold,Tomato Leaf Mold,0.9802360534667969,True
+1409,Tomato Leaf Mold,Tomato Leaf Mold,0.9983910918235779,True
+1410,Tomato Leaf Mold,Tomato Leaf Mold,0.9754476547241211,True
+1411,Tomato Leaf Mold,Tomato Leaf Mold,0.9987202882766724,True
+1412,Tomato Leaf Mold,Tomato Leaf Mold,0.9715163111686707,True
+1413,Tomato Leaf Mold,Tomato Leaf Mold,0.4592936933040619,True
+1414,Tomato Leaf Mold,Tomato Leaf Mold,0.9994240999221802,True
+1415,Tomato Leaf Mold,Tomato Spider Mites,0.722374439239502,False
+1416,Tomato Leaf Mold,Tomato Leaf Mold,0.7958981394767761,True
+1417,Tomato Leaf Mold,Tomato Leaf Mold,0.9965370893478394,True
+1418,Tomato Leaf Mold,Tomato Leaf Mold,0.9660504460334778,True
+1419,Tomato Leaf Mold,Tomato Leaf Mold,0.9997257590293884,True
+1420,Tomato Leaf Mold,Tomato Leaf Mold,0.908625602722168,True
+1421,Tomato Leaf Mold,Tomato Leaf Mold,0.9968878626823425,True
+1422,Tomato Leaf Mold,Tomato Leaf Mold,0.9932234287261963,True
+1423,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9785839915275574,True
+1424,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.5701226592063904,True
+1425,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9999754428863525,True
+1426,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.989138662815094,True
+1427,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9957365989685059,True
+1428,Tomato Septoria Leaf Spot,Tomato Target Spot,0.7589561343193054,False
+1429,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.8558343648910522,True
+1430,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9862772822380066,True
+1431,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9995984435081482,True
+1432,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9881783127784729,True
+1433,Tomato Septoria Leaf Spot,Healthy,0.6690133213996887,False
+1434,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9730658531188965,True
+1435,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.999476969242096,True
+1436,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9978099465370178,True
+1437,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.992326021194458,True
+1438,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9806110858917236,True
+1439,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9935364127159119,True
+1440,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9875832200050354,True
+1441,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9998220801353455,True
+1442,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.8698903918266296,True
+1443,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9983626008033752,True
+1444,Tomato Septoria Leaf Spot,Tomato Early Blight,0.505764365196228,False
+1445,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9575598239898682,True
+1446,Tomato Septoria Leaf Spot,Tomato Early Blight,0.6738209128379822,False
+1447,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9998594522476196,True
+1448,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9942904710769653,True
+1449,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.8546772003173828,True
+1450,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9998842477798462,True
+1451,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9853986501693726,True
+1452,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9983702301979065,True
+1453,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9874978065490723,True
+1454,Tomato Septoria Leaf Spot,Tomato Target Spot,0.48029181361198425,False
+1455,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9998569488525391,True
+1456,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.5323880910873413,True
+1457,Tomato Septoria Leaf Spot,Tomato Target Spot,0.508587658405304,False
+1458,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9965754151344299,True
+1459,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.8986316919326782,True
+1460,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9946721196174622,True
+1461,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9987241625785828,True
+1462,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.7937281727790833,True
+1463,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9946275353431702,True
+1464,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9998792409896851,True
+1465,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9852576851844788,True
+1466,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9981796741485596,True
+1467,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9908804893493652,True
+1468,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.7476431727409363,True
+1469,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9911072850227356,True
+1470,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.716343343257904,True
+1471,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9882744550704956,True
+1472,Tomato Septoria Leaf Spot,Tomato Early Blight,0.8863725662231445,False
+1473,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9992983341217041,True
+1474,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9928188920021057,True
+1475,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9665987491607666,True
+1476,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9998495578765869,True
+1477,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.80027174949646,True
+1478,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9121010303497314,True
+1479,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9981314539909363,True
+1480,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9964125752449036,True
+1481,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.91749107837677,True
+1482,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.999750554561615,True
+1483,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9984210729598999,True
+1484,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9846141338348389,True
+1485,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.5389634966850281,True
+1486,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.524957537651062,True
+1487,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9996612071990967,True
+1488,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9970115423202515,True
+1489,Tomato Septoria Leaf Spot,Tomato Target Spot,0.8259127140045166,False
+1490,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.8649037480354309,True
+1491,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9741628766059875,True
+1492,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9997324347496033,True
+1493,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9818587303161621,True
+1494,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.7645695209503174,True
+1495,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9186960458755493,True
+1496,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9855441451072693,True
+1497,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9989383816719055,True
+1498,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9995096921920776,True
+1499,Tomato Septoria Leaf Spot,Tomato Target Spot,0.8722586035728455,False
+1500,Tomato Septoria Leaf Spot,Tomato Late Blight,0.674163281917572,False
+1501,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9238433241844177,True
+1502,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9743004441261292,True
+1503,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9980727434158325,True
+1504,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.754326581954956,True
+1505,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9810738563537598,True
+1506,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.988303542137146,True
+1507,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.8722705841064453,True
+1508,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.8607828617095947,True
+1509,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.8524885177612305,True
+1510,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.7937709093093872,True
+1511,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.7648224234580994,True
+1512,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.999362051486969,True
+1513,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.7619733214378357,True
+1514,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.8682080507278442,True
+1515,Tomato Septoria Leaf Spot,Tomato Spider Mites,0.29942095279693604,False
+1516,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9538692831993103,True
+1517,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.710024356842041,True
+1518,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.996563732624054,True
+1519,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9190284609794617,True
+1520,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9952979683876038,True
+1521,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9839228987693787,True
+1522,Tomato Septoria Leaf Spot,Tomato Septoria Leaf Spot,0.9995852112770081,True
+1523,Tomato Spider Mites,Tomato Spider Mites,0.966820240020752,True
+1524,Tomato Spider Mites,Tomato Spider Mites,0.9187812805175781,True
+1525,Tomato Spider Mites,Tomato Spider Mites,0.9753630757331848,True
+1526,Tomato Spider Mites,Tomato Spider Mites,0.7035305500030518,True
+1527,Tomato Spider Mites,Tomato Spider Mites,0.9985349178314209,True
+1528,Tomato Spider Mites,Tomato Spider Mites,0.9288271069526672,True
+1529,Tomato Spider Mites,Tomato Target Spot,0.5658532381057739,False
+1530,Tomato Spider Mites,Tomato Target Spot,0.7399252653121948,False
+1531,Tomato Spider Mites,Tomato Spider Mites,0.8937518000602722,True
+1532,Tomato Spider Mites,Tomato Spider Mites,0.9454872608184814,True
+1533,Tomato Spider Mites,Tomato Target Spot,0.45562756061553955,False
+1534,Tomato Spider Mites,Tomato Spider Mites,0.9994754195213318,True
+1535,Tomato Spider Mites,Tomato Spider Mites,0.9481112957000732,True
+1536,Tomato Spider Mites,Tomato Spider Mites,0.9990302324295044,True
+1537,Tomato Spider Mites,Tomato Spider Mites,0.5880823731422424,True
+1538,Tomato Spider Mites,Tomato Spider Mites,0.9904071688652039,True
+1539,Tomato Spider Mites,Tomato Spider Mites,0.9926203489303589,True
+1540,Tomato Spider Mites,Tomato Spider Mites,0.9576473832130432,True
+1541,Tomato Spider Mites,Tomato Spider Mites,0.9937825798988342,True
+1542,Tomato Spider Mites,Tomato Spider Mites,0.9944519400596619,True
+1543,Tomato Spider Mites,Tomato Spider Mites,0.9971051812171936,True
+1544,Tomato Spider Mites,Tomato Spider Mites,0.5530762672424316,True
+1545,Tomato Spider Mites,Tomato Spider Mites,0.9543017148971558,True
+1546,Tomato Spider Mites,Tomato Spider Mites,0.9937548637390137,True
+1547,Tomato Spider Mites,Tomato Spider Mites,0.8701476454734802,True
+1548,Tomato Spider Mites,Tomato Spider Mites,0.9891790151596069,True
+1549,Tomato Spider Mites,Tomato Spider Mites,0.986732542514801,True
+1550,Tomato Spider Mites,Tomato Spider Mites,0.9055951833724976,True
+1551,Tomato Spider Mites,Tomato Spider Mites,0.999160885810852,True
+1552,Tomato Spider Mites,Tomato Spider Mites,0.9973272085189819,True
+1553,Tomato Spider Mites,Tomato Spider Mites,0.9598391056060791,True
+1554,Tomato Spider Mites,Tomato Target Spot,0.8828229904174805,False
+1555,Tomato Spider Mites,Tomato Target Spot,0.5151152610778809,False
+1556,Tomato Spider Mites,Tomato Spider Mites,0.846494734287262,True
+1557,Tomato Spider Mites,Tomato Spider Mites,0.9791867733001709,True
+1558,Tomato Spider Mites,Tomato Spider Mites,0.9613107442855835,True
+1559,Tomato Spider Mites,Tomato Spider Mites,0.8047680854797363,True
+1560,Tomato Spider Mites,Tomato Spider Mites,0.9823894500732422,True
+1561,Tomato Spider Mites,Tomato Spider Mites,0.6703088879585266,True
+1562,Tomato Spider Mites,Tomato Target Spot,0.9392865896224976,False
+1563,Tomato Spider Mites,Tomato Spider Mites,0.9839807152748108,True
+1564,Tomato Spider Mites,Tomato Spider Mites,0.9414202570915222,True
+1565,Tomato Spider Mites,Tomato Spider Mites,0.8050824403762817,True
+1566,Tomato Spider Mites,Tomato Spider Mites,0.9501138925552368,True
+1567,Tomato Spider Mites,Tomato Spider Mites,0.8360675573348999,True
+1568,Tomato Spider Mites,Tomato Spider Mites,0.9997698664665222,True
+1569,Tomato Spider Mites,Tomato Spider Mites,0.9020299315452576,True
+1570,Tomato Spider Mites,Tomato Spider Mites,0.6047223210334778,True
+1571,Tomato Spider Mites,Tomato Spider Mites,0.9998968839645386,True
+1572,Tomato Spider Mites,Tomato Spider Mites,0.9916278123855591,True
+1573,Tomato Spider Mites,Tomato Spider Mites,0.7847207188606262,True
+1574,Tomato Spider Mites,Tomato Spider Mites,0.9957138299942017,True
+1575,Tomato Spider Mites,Tomato Spider Mites,0.9923890233039856,True
+1576,Tomato Spider Mites,Tomato Spider Mites,0.998380184173584,True
+1577,Tomato Spider Mites,Tomato Target Spot,0.523370087146759,False
+1578,Tomato Spider Mites,Tomato Spider Mites,0.781390368938446,True
+1579,Tomato Spider Mites,Tomato Spider Mites,0.961334764957428,True
+1580,Tomato Spider Mites,Tomato Spider Mites,0.6192215085029602,True
+1581,Tomato Spider Mites,Tomato Spider Mites,0.8821893334388733,True
+1582,Tomato Spider Mites,Tomato Spider Mites,0.7482568621635437,True
+1583,Tomato Spider Mites,Tomato Spider Mites,0.9947972893714905,True
+1584,Tomato Spider Mites,Tomato Spider Mites,0.7593193054199219,True
+1585,Tomato Spider Mites,Tomato Spider Mites,0.8524063229560852,True
+1586,Tomato Spider Mites,Tomato Spider Mites,0.9936733245849609,True
+1587,Tomato Spider Mites,Tomato Spider Mites,0.949168860912323,True
+1588,Tomato Spider Mites,Tomato Spider Mites,0.8306604623794556,True
+1589,Tomato Spider Mites,Healthy,0.48371416330337524,False
+1590,Tomato Spider Mites,Tomato Target Spot,0.9327733516693115,False
+1591,Tomato Spider Mites,Tomato Spider Mites,0.9565373659133911,True
+1592,Tomato Spider Mites,Tomato Spider Mites,0.9353107213973999,True
+1593,Tomato Spider Mites,Tomato Spider Mites,0.9946051239967346,True
+1594,Tomato Spider Mites,Tomato Spider Mites,0.5059162378311157,True
+1595,Tomato Spider Mites,Tomato Spider Mites,0.9104293584823608,True
+1596,Tomato Spider Mites,Tomato Spider Mites,0.6743508577346802,True
+1597,Tomato Spider Mites,Tomato Spider Mites,0.9666671752929688,True
+1598,Tomato Spider Mites,Tomato Spider Mites,0.94412761926651,True
+1599,Tomato Spider Mites,Tomato Spider Mites,0.8849373459815979,True
+1600,Tomato Spider Mites,Tomato Spider Mites,0.9938160181045532,True
+1601,Tomato Spider Mites,Tomato Spider Mites,0.9154793620109558,True
+1602,Tomato Spider Mites,Tomato Target Spot,0.7610698938369751,False
+1603,Tomato Spider Mites,Tomato Spider Mites,0.9835620522499084,True
+1604,Tomato Spider Mites,Tomato Spider Mites,0.9751628041267395,True
+1605,Tomato Spider Mites,Tomato Spider Mites,0.9877134561538696,True
+1606,Tomato Spider Mites,Tomato Target Spot,0.7582955360412598,False
+1607,Tomato Spider Mites,Tomato Spider Mites,0.9132375121116638,True
+1608,Tomato Spider Mites,Tomato Spider Mites,0.9978923201560974,True
+1609,Tomato Spider Mites,Tomato Spider Mites,0.9934870004653931,True
+1610,Tomato Spider Mites,Tomato Spider Mites,0.8844283223152161,True
+1611,Tomato Spider Mites,Tomato Spider Mites,0.9991893172264099,True
+1612,Tomato Spider Mites,Tomato Spider Mites,0.9652836322784424,True
+1613,Tomato Spider Mites,Tomato Spider Mites,0.9900550842285156,True
+1614,Tomato Spider Mites,Tomato Spider Mites,0.7425682544708252,True
+1615,Tomato Spider Mites,Tomato Spider Mites,0.9997720122337341,True
+1616,Tomato Spider Mites,Tomato Target Spot,0.6883121132850647,False
+1617,Tomato Spider Mites,Tomato Spider Mites,0.9912449717521667,True
+1618,Tomato Spider Mites,Tomato Spider Mites,0.9929609894752502,True
+1619,Tomato Spider Mites,Tomato Spider Mites,0.5887981057167053,True
+1620,Tomato Spider Mites,Tomato Spider Mites,0.9180864095687866,True
+1621,Tomato Spider Mites,Tomato Spider Mites,0.979882538318634,True
+1622,Tomato Spider Mites,Tomato Spider Mites,0.7886245250701904,True
+1623,Tomato Target Spot,Tomato Target Spot,0.998818576335907,True
+1624,Tomato Target Spot,Tomato Target Spot,0.8730368614196777,True
+1625,Tomato Target Spot,Tomato Target Spot,0.9955280423164368,True
+1626,Tomato Target Spot,Tomato Target Spot,0.9078636169433594,True
+1627,Tomato Target Spot,Tomato Target Spot,0.43181541562080383,True
+1628,Tomato Target Spot,Tomato Spider Mites,0.6869267821311951,False
+1629,Tomato Target Spot,Healthy,0.710936963558197,False
+1630,Tomato Target Spot,Tomato Target Spot,0.9818173050880432,True
+1631,Tomato Target Spot,Tomato Target Spot,0.9769318699836731,True
+1632,Tomato Target Spot,Tomato Target Spot,0.9826647639274597,True
+1633,Tomato Target Spot,Tomato Target Spot,0.9002977609634399,True
+1634,Tomato Target Spot,Tomato Target Spot,0.9972374439239502,True
+1635,Tomato Target Spot,Tomato Target Spot,0.8567732572555542,True
+1636,Tomato Target Spot,Tomato Target Spot,0.5832704305648804,True
+1637,Tomato Target Spot,Tomato Target Spot,0.9980965256690979,True
+1638,Tomato Target Spot,Tomato Target Spot,0.9986661672592163,True
+1639,Tomato Target Spot,Tomato Target Spot,0.9925036430358887,True
+1640,Tomato Target Spot,Tomato Target Spot,0.9808571338653564,True
+1641,Tomato Target Spot,Tomato Target Spot,0.9989249110221863,True
+1642,Tomato Target Spot,Tomato Target Spot,0.9550474882125854,True
+1643,Tomato Target Spot,Tomato Leaf Mold,0.5892853140830994,False
+1644,Tomato Target Spot,Healthy,0.6197474002838135,False
+1645,Tomato Target Spot,Tomato Target Spot,0.9006883502006531,True
+1646,Tomato Target Spot,Tomato Target Spot,0.9692853093147278,True
+1647,Tomato Target Spot,Tomato Target Spot,0.8230360150337219,True
+1648,Tomato Target Spot,Tomato Target Spot,0.989108681678772,True
+1649,Tomato Target Spot,Tomato Target Spot,0.9928281903266907,True
+1650,Tomato Target Spot,Tomato Spider Mites,0.5086037516593933,False
+1651,Tomato Target Spot,Tomato Target Spot,0.9858270287513733,True
+1652,Tomato Target Spot,Tomato Target Spot,0.9415915608406067,True
+1653,Tomato Target Spot,Tomato Target Spot,0.9952422380447388,True
+1654,Tomato Target Spot,Tomato Target Spot,0.959315836429596,True
+1655,Tomato Target Spot,Tomato Target Spot,0.981945812702179,True
+1656,Tomato Target Spot,Tomato Target Spot,0.9905937910079956,True
+1657,Tomato Target Spot,Tomato Target Spot,0.9792888760566711,True
+1658,Tomato Target Spot,Tomato Target Spot,0.953478217124939,True
+1659,Tomato Target Spot,Tomato Target Spot,0.9630835652351379,True
+1660,Tomato Target Spot,Tomato Target Spot,0.786225438117981,True
+1661,Tomato Target Spot,Tomato Target Spot,0.8650839924812317,True
+1662,Tomato Target Spot,Tomato Target Spot,0.9956313371658325,True
+1663,Tomato Target Spot,Tomato Target Spot,0.8750945329666138,True
+1664,Tomato Target Spot,Tomato Target Spot,0.988689124584198,True
+1665,Tomato Target Spot,Tomato Target Spot,0.9488049149513245,True
+1666,Tomato Target Spot,Tomato Target Spot,0.9953579306602478,True
+1667,Tomato Target Spot,Tomato Target Spot,0.9515188336372375,True
+1668,Tomato Target Spot,Tomato Target Spot,0.9360238909721375,True
+1669,Tomato Target Spot,Tomato Target Spot,0.444705605506897,True
+1670,Tomato Target Spot,Tomato Target Spot,0.80608069896698,True
+1671,Tomato Target Spot,Tomato Target Spot,0.9725645780563354,True
+1672,Tomato Target Spot,Tomato Target Spot,0.8412659168243408,True
+1673,Tomato Target Spot,Tomato Target Spot,0.9915004968643188,True
+1674,Tomato Target Spot,Tomato Target Spot,0.9627535343170166,True
+1675,Tomato Target Spot,Tomato Target Spot,0.921554446220398,True
+1676,Tomato Target Spot,Tomato Target Spot,0.9897087216377258,True
+1677,Tomato Target Spot,Tomato Target Spot,0.6047617793083191,True
+1678,Tomato Target Spot,Tomato Target Spot,0.6013591885566711,True
+1679,Tomato Target Spot,Tomato Target Spot,0.7677751779556274,True
+1680,Tomato Target Spot,Tomato Target Spot,0.9991804957389832,True
+1681,Tomato Target Spot,Tomato Target Spot,0.7936834096908569,True
+1682,Tomato Target Spot,Tomato Target Spot,0.9962676167488098,True
+1683,Tomato Target Spot,Tomato Target Spot,0.9167453646659851,True
+1684,Tomato Target Spot,Tomato Target Spot,0.9151540994644165,True
+1685,Tomato Target Spot,Tomato Target Spot,0.9984920024871826,True
+1686,Tomato Target Spot,Tomato Target Spot,0.995726466178894,True
+1687,Tomato Target Spot,Tomato Target Spot,0.9373891949653625,True
+1688,Tomato Target Spot,Tomato Target Spot,0.9734216332435608,True
+1689,Tomato Target Spot,Tomato Target Spot,0.9840413331985474,True
+1690,Tomato Target Spot,Tomato Target Spot,0.8906670808792114,True
+1691,Tomato Target Spot,Tomato Target Spot,0.8919891715049744,True
+1692,Tomato Target Spot,Tomato Target Spot,0.9963057041168213,True
+1693,Tomato Target Spot,Tomato Target Spot,0.9088554978370667,True
+1694,Tomato Target Spot,Tomato Target Spot,0.9921064376831055,True
+1695,Tomato Target Spot,Tomato Target Spot,0.9842221140861511,True
+1696,Tomato Target Spot,Tomato Target Spot,0.9630686044692993,True
+1697,Tomato Target Spot,Tomato Target Spot,0.9662154316902161,True
+1698,Tomato Target Spot,Tomato Target Spot,0.9740868210792542,True
+1699,Tomato Target Spot,Tomato Target Spot,0.9889728426933289,True
+1700,Tomato Target Spot,Tomato Target Spot,0.9898457527160645,True
+1701,Tomato Target Spot,Tomato Target Spot,0.9410446882247925,True
+1702,Tomato Target Spot,Tomato Target Spot,0.9641022086143494,True
+1703,Tomato Target Spot,Tomato Target Spot,0.9811821579933167,True
+1704,Tomato Target Spot,Tomato Target Spot,0.9336410760879517,True
+1705,Tomato Target Spot,Tomato Target Spot,0.9777761101722717,True
+1706,Tomato Target Spot,Tomato Target Spot,0.9910402894020081,True
+1707,Tomato Target Spot,Tomato Target Spot,0.9876256585121155,True
+1708,Tomato Target Spot,Tomato Target Spot,0.502928614616394,True
+1709,Tomato Target Spot,Tomato Spider Mites,0.5562080144882202,False
+1710,Tomato Target Spot,Tomato Target Spot,0.9650686383247375,True
+1711,Tomato Target Spot,Tomato Target Spot,0.9459121227264404,True
+1712,Tomato Target Spot,Tomato Target Spot,0.9934285283088684,True
+1713,Tomato Target Spot,Tomato Target Spot,0.5849650502204895,True
+1714,Tomato Target Spot,Tomato Target Spot,0.979596734046936,True
+1715,Tomato Target Spot,Tomato Target Spot,0.9964555501937866,True
+1716,Tomato Target Spot,Tomato Target Spot,0.9990655779838562,True
+1717,Tomato Target Spot,Tomato Target Spot,0.9126101136207581,True
+1718,Tomato Target Spot,Tomato Target Spot,0.5956244468688965,True
+1719,Tomato Target Spot,Tomato Target Spot,0.8872350454330444,True
+1720,Tomato Target Spot,Tomato Target Spot,0.9822465777397156,True
+1721,Tomato Target Spot,Tomato Target Spot,0.9568707346916199,True
+1722,Tomato Target Spot,Tomato Target Spot,0.9978692531585693,True
+1723,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.7159639596939087,True
+1724,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9999126195907593,True
+1725,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9944842457771301,True
+1726,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9855116605758667,True
+1727,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.862484335899353,True
+1728,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.6180137395858765,True
+1729,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9541751742362976,True
+1730,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9944701194763184,True
+1731,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9940651655197144,True
+1732,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.45053327083587646,True
+1733,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9929874539375305,True
+1734,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.4561993479728699,True
+1735,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9768043160438538,True
+1736,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.5566039085388184,True
+1737,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9970970153808594,True
+1738,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.80047607421875,True
+1739,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9983603358268738,True
+1740,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.7204970121383667,True
+1741,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9994032382965088,True
+1742,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9983193278312683,True
+1743,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.5632246732711792,True
+1744,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.8906377553939819,True
+1745,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9480162262916565,True
+1746,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9999076128005981,True
+1747,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9999909400939941,True
+1748,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9994274377822876,True
+1749,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9970495700836182,True
+1750,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.6410736441612244,True
+1751,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.8252318501472473,True
+1752,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9543040990829468,True
+1753,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9922520518302917,True
+1754,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9982247948646545,True
+1755,Tomato Tomato Mosaic Virus,Tomato Spider Mites,0.6295878887176514,False
+1756,Tomato Tomato Mosaic Virus,Tomato Target Spot,0.4364251494407654,False
+1757,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9535404443740845,True
+1758,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9437481164932251,True
+1759,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.6433565020561218,True
+1760,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9821487665176392,True
+1761,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9986796975135803,True
+1762,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9877573251724243,True
+1763,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9993950128555298,True
+1764,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9723681211471558,True
+1765,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.7027417421340942,True
+1766,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.6713522672653198,True
+1767,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9998459815979004,True
+1768,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.5789412260055542,True
+1769,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9949597120285034,True
+1770,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9901120066642761,True
+1771,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9987694621086121,True
+1772,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9890596866607666,True
+1773,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9888544082641602,True
+1774,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9996901750564575,True
+1775,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.995116114616394,True
+1776,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9959041476249695,True
+1777,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.702904462814331,True
+1778,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9877228736877441,True
+1779,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9106011390686035,True
+1780,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9808972477912903,True
+1781,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.8275362253189087,True
+1782,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9995710253715515,True
+1783,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9370920062065125,True
+1784,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.8906377553939819,True
+1785,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.8511921167373657,True
+1786,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9677716493606567,True
+1787,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9992714524269104,True
+1788,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9993785619735718,True
+1789,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9857546091079712,True
+1790,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.996738851070404,True
+1791,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9171470999717712,True
+1792,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.7924573421478271,True
+1793,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9978469610214233,True
+1794,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9998056292533875,True
+1795,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9454183578491211,True
+1796,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9900610446929932,True
+1797,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.989822506904602,True
+1798,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.8702265620231628,True
+1799,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.5952039361000061,True
+1800,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9972665309906006,True
+1801,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9684176445007324,True
+1802,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9992523789405823,True
+1803,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9856890439987183,True
+1804,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9929127097129822,True
+1805,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9501968026161194,True
+1806,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9818822741508484,True
+1807,Tomato Tomato Mosaic Virus,Tomato Leaf Mold,0.6047841906547546,False
+1808,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9994211196899414,True
+1809,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.5393313765525818,True
+1810,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9995250701904297,True
+1811,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.987580418586731,True
+1812,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9580286145210266,True
+1813,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9990500807762146,True
+1814,Tomato Tomato Mosaic Virus,Tomato Spider Mites,0.2790110111236572,False
+1815,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.7787250280380249,True
+1816,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9971610307693481,True
+1817,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9998955726623535,True
+1818,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9760556817054749,True
+1819,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.93748539686203,True
+1820,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9812994599342346,True
+1821,Tomato Tomato Mosaic Virus,Tomato Tomato Mosaic Virus,0.9979593753814697,True
+1822,Tomato Tomato Mosaic Virus,Tomato Septoria Leaf Spot,0.8996742963790894,False
+1823,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9995007514953613,True
+1824,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9983739852905273,True
+1825,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9997202754020691,True
+1826,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.4570468068122864,True
+1827,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9975250363349915,True
+1828,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9998480081558228,True
+1829,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9997504353523254,True
+1830,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.999194324016571,True
+1831,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9874926805496216,True
+1832,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9475722312927246,True
+1833,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9959412813186646,True
+1834,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999998807907104,True
+1835,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.999226450920105,True
+1836,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9989970326423645,True
+1837,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9998606443405151,True
+1838,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9990321397781372,True
+1839,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,1.0,True
+1840,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9839425086975098,True
+1841,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999997615814209,True
+1842,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999990463256836,True
+1843,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999992847442627,True
+1844,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.913399875164032,True
+1845,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.945032000541687,True
+1846,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.6736858487129211,True
+1847,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999995231628418,True
+1848,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.7884936928749084,True
+1849,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9915788173675537,True
+1850,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999431371688843,True
+1851,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999966621398926,True
+1852,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9996219873428345,True
+1853,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.995650589466095,True
+1854,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.999947190284729,True
+1855,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9995488524436951,True
+1856,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999117851257324,True
+1857,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9997944235801697,True
+1858,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.8059972524642944,True
+1859,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9931093454360962,True
+1860,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999744892120361,True
+1861,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999997615814209,True
+1862,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.8114157915115356,True
+1863,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.578689694404602,True
+1864,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9995718598365784,True
+1865,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999524354934692,True
+1866,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9984673857688904,True
+1867,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999991655349731,True
+1868,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9525696039199829,True
+1869,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9972770810127258,True
+1870,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.7103255391120911,True
+1871,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999560117721558,True
+1872,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999943971633911,True
+1873,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9990381002426147,True
+1874,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.8797414898872375,True
+1875,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9992855191230774,True
+1876,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.999377965927124,True
+1877,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9955418705940247,True
+1878,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.999958872795105,True
+1879,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.999909520149231,True
+1880,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.954437792301178,True
+1881,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9965135455131531,True
+1882,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9968430995941162,True
+1883,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.866989016532898,True
+1884,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999966621398926,True
+1885,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999136924743652,True
+1886,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9995467066764832,True
+1887,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999700784683228,True
+1888,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999966621398926,True
+1889,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9989781379699707,True
+1890,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.4673464596271515,True
+1891,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.998491644859314,True
+1892,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999983310699463,True
+1893,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9998960494995117,True
+1894,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9978735446929932,True
+1895,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9961026906967163,True
+1896,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9998805522918701,True
+1897,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999419450759888,True
+1898,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9988307356834412,True
+1899,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9775868058204651,True
+1900,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.8524702191352844,True
+1901,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9885492920875549,True
+1902,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9995599389076233,True
+1903,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9687000513076782,True
+1904,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9994854927062988,True
+1905,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.8587877750396729,True
+1906,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9972321391105652,True
+1907,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9997305274009705,True
+1908,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999991655349731,True
+1909,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9879387617111206,True
+1910,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999884366989136,True
+1911,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9996322393417358,True
+1912,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9954383969306946,True
+1913,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9993020296096802,True
+1914,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9997485280036926,True
+1915,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9998206496238708,True
+1916,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9937963485717773,True
+1917,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999208450317383,True
+1918,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9999990463256836,True
+1919,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.5440326929092407,True
+1920,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9974381923675537,True
+1921,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9998499155044556,True
+1922,Tomato Yellow Leaf Curl Virus,Tomato Yellow Leaf Curl Virus,0.9907840490341187,True

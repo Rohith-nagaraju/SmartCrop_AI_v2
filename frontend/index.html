@@ -1,0 +1,1285 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <title>SmartCrop AI</title>
+
+  <link
+    rel="stylesheet"
+    href="/static/styles.css?v=5"
+  >
+</head>
+
+<body>
+
+  <!-- =====================================================
+       AUTHENTICATION SCREEN
+       ===================================================== -->
+
+  <section id="authScreen" class="auth-screen">
+
+    <div class="auth-card">
+
+      <div class="auth-brand">
+
+        <div class="brand-icon">
+          🌱
+        </div>
+
+        <div>
+          <h1>SmartCrop AI</h1>
+
+          <p>
+            Explainable multimodal crop-health
+            decision support
+          </p>
+        </div>
+
+      </div>
+
+
+      <!-- LOGIN -->
+
+      <div id="loginFormContainer">
+
+        <div class="auth-heading">
+
+          <h2>Farmer Login</h2>
+
+          <p>
+            Sign in to access your farm dashboard.
+          </p>
+
+        </div>
+
+        <form id="loginForm">
+
+          <label>
+            📧 Email
+
+            <input
+              id="loginEmail"
+              type="email"
+              placeholder="Enter your email"
+              required
+            >
+          </label>
+
+
+          <label>
+            🔒 Password
+
+            <input
+              id="loginPassword"
+              type="password"
+              placeholder="Enter your password"
+              required
+            >
+          </label>
+
+
+          <button
+            type="submit"
+            class="auth-button"
+          >
+            Login
+          </button>
+
+        </form>
+
+
+        <div
+          id="loginMessage"
+          class="auth-message"
+        ></div>
+
+
+        <p class="auth-switch">
+
+          New farmer?
+
+          <button
+            id="showRegisterButton"
+            type="button"
+          >
+            Create an account
+          </button>
+
+        </p>
+
+      </div>
+
+
+      <!-- REGISTER -->
+
+      <div
+        id="registerFormContainer"
+        class="hidden"
+      >
+
+        <div class="auth-heading">
+
+          <h2>Create Farmer Account</h2>
+
+          <p>
+            Save your farm information once and
+            use live weather automatically.
+          </p>
+
+        </div>
+
+
+        <form id="registerForm">
+
+          <label>
+            👨‍🌾 Full Name
+
+            <input
+              id="registerName"
+              type="text"
+              placeholder="Farmer name"
+              required
+            >
+          </label>
+
+
+          <label>
+            📧 Mobile / Email
+
+            <input
+              id="registerEmail"
+              type="email"
+              placeholder="farmer@example.com"
+              required
+            >
+          </label>
+
+
+          <label>
+            🔒 Password
+
+            <input
+              id="registerPassword"
+              type="password"
+              placeholder="Create a password"
+              minlength="6"
+              required
+            >
+          </label>
+
+
+          <label>
+            🏡 Farm Name
+
+            <input
+              id="registerFarmName"
+              type="text"
+              placeholder="My Farm"
+              required
+            >
+          </label>
+
+
+          <label>
+            📍 Farm Location
+
+            <input
+              id="registerLocation"
+              type="text"
+              placeholder="Mysuru, Karnataka"
+              required
+            >
+
+            <small>
+              Enter your village, town, district or city.
+              Weather will be obtained automatically.
+            </small>
+
+          </label>
+
+
+          <label>
+            🌿 Crop
+
+            <select
+              id="registerCrop"
+              required
+            >
+
+              <option value="rice">
+                🌾 Rice
+              </option>
+
+              <option value="maize">
+                🌽 Maize
+              </option>
+
+              <option value="tomato">
+                🍅 Tomato
+              </option>
+
+              <option value="grape">
+                🍇 Grape
+              </option>
+
+              <option value="potato">
+                🥔 Potato
+              </option>
+
+              <option value="pepper">
+                🫑 Pepper
+              </option>
+
+            </select>
+
+          </label>
+
+
+          <label>
+            🆔 Field ID
+
+            <input
+              id="registerFieldId"
+              type="text"
+              placeholder="FIELD-001"
+              value="FIELD-001"
+              required
+            >
+
+          </label>
+
+
+          <button
+            type="submit"
+            class="auth-button"
+          >
+            Create Account
+          </button>
+
+        </form>
+
+
+        <div
+          id="registerMessage"
+          class="auth-message"
+        ></div>
+
+
+        <p class="auth-switch">
+
+          Already have an account?
+
+          <button
+            id="showLoginButton"
+            type="button"
+          >
+            Login
+          </button>
+
+        </p>
+
+      </div>
+
+    </div>
+
+  </section>
+
+
+
+  <!-- =====================================================
+       MAIN APPLICATION
+       ===================================================== -->
+
+  <div
+    id="appScreen"
+    class="hidden"
+  >
+
+
+    <!-- =====================================================
+         HEADER
+         ===================================================== -->
+
+    <header class="top-header">
+
+      <div class="header-content">
+
+
+        <div class="brand">
+
+          <div class="brand-icon">
+            🌱
+          </div>
+
+          <div>
+
+            <h1>
+              SmartCrop AI
+            </h1>
+
+            <p>
+              Explainable multimodal crop-health
+              risk assessment
+            </p>
+
+          </div>
+
+        </div>
+
+
+        <!-- FARMER MENU -->
+
+        <div class="farmer-menu">
+
+          <div class="farmer-avatar">
+            👨‍🌾
+          </div>
+
+          <div class="farmer-details">
+
+            <strong id="headerFarmerName">
+              Farmer
+            </strong>
+
+            <span id="headerFarmName">
+              My Farm
+            </span>
+
+          </div>
+
+
+          <button
+            id="logoutButton"
+            type="button"
+            class="logout-button"
+          >
+            Logout
+          </button>
+
+        </div>
+
+
+      </div>
+
+    </header>
+
+
+
+    <main>
+
+
+      <!-- =====================================================
+           FARM LOCATION
+           ===================================================== -->
+
+      <section
+        id="locationPanel"
+        class="panel location-panel"
+      >
+
+        <div class="location-content">
+
+          <div class="location-icon">
+            📍
+          </div>
+
+          <div>
+
+            <div class="location-title">
+              Farm Location
+            </div>
+
+            <div
+              id="farmLocation"
+              class="location-name"
+            >
+              Loading farm location...
+            </div>
+
+            <div
+              id="weatherUpdateTime"
+              class="location-update"
+            >
+              Loading weather...
+            </div>
+
+          </div>
+
+        </div>
+
+      </section>
+
+
+
+      <!-- =====================================================
+           LIVE WEATHER
+           ===================================================== -->
+
+      <section
+        id="weatherPanel"
+        class="panel weather-panel"
+      >
+
+        <div class="section-heading">
+
+          <div>
+
+            <div class="section-number">
+              01
+            </div>
+
+            <h2>
+              Live Weather
+            </h2>
+
+            <p>
+              Five-day forecast for your saved farm location.
+            </p>
+
+          </div>
+
+          <div class="section-tag">
+            LIVE WEATHER
+          </div>
+
+        </div>
+
+
+        <div
+          id="weatherStatus"
+          class="weather-status"
+        >
+          Loading weather...
+        </div>
+
+
+        <div
+          id="weatherForecast"
+          class="weather-grid"
+        >
+
+          <!-- JavaScript inserts five-day weather here -->
+
+        </div>
+
+
+        <div class="weather-note">
+
+          🌱
+          Soil moisture is shown as a
+          <strong>weather-model proxy</strong>,
+          not a direct field sensor measurement.
+
+        </div>
+
+      </section>
+
+
+
+      <!-- =====================================================
+           ANALYSIS INPUT
+           ===================================================== -->
+
+      <section
+        class="panel input-panel"
+      >
+
+        <div class="section-heading">
+
+          <div>
+
+            <div class="section-number">
+              02
+            </div>
+
+            <h2>
+              Analyze Field Image
+            </h2>
+
+            <p>
+              Upload a crop leaf image. Environmental
+              conditions are obtained automatically from
+              your saved farm location.
+            </p>
+
+          </div>
+
+          <div class="section-tag">
+            FIELD ANALYSIS
+          </div>
+
+        </div>
+
+
+        <form id="form">
+
+
+          <div class="analysis-input-layout">
+
+
+            <!-- =================================================
+                 IMAGE UPLOAD
+                 ================================================= -->
+
+            <div class="upload-area">
+
+              <div class="camera-icon">
+                📷
+              </div>
+
+              <h3>
+                Upload Leaf Image
+              </h3>
+
+              <p>
+                Use a clear, well-framed image
+                of the leaf.
+              </p>
+
+
+              <label class="upload-button">
+
+                <span>
+                  Choose Image
+                </span>
+
+                <input
+                  type="file"
+                  id="image"
+                  accept="image/*"
+                  required
+                >
+
+              </label>
+
+
+              <div
+                id="filename"
+                class="filename"
+              >
+                No image selected
+              </div>
+
+
+              <img
+                id="inputPreview"
+                class="input-preview hidden"
+                alt="Selected leaf preview"
+              >
+
+            </div>
+
+
+
+            <!-- =================================================
+                 FIELD PARAMETERS
+                 ================================================= -->
+
+            <div class="field-inputs">
+
+              <div class="grid">
+
+
+                <!-- CROP -->
+
+                <label>
+
+                  🌿 Crop
+
+                  <select id="crop">
+
+                    <option
+                      value="rice"
+                      selected
+                    >
+                      🌾 Rice
+                    </option>
+
+                    <option value="maize">
+                      🌽 Maize
+                    </option>
+
+                    <option value="tomato">
+                      🍅 Tomato
+                    </option>
+
+                    <option value="grape">
+                      🍇 Grape
+                    </option>
+
+                    <option value="potato">
+                      🥔 Potato
+                    </option>
+
+                    <option value="pepper">
+                      🫑 Pepper
+                    </option>
+
+                  </select>
+
+                </label>
+
+
+
+                <!-- FIELD ID -->
+
+                <label>
+
+                  🆔 Field ID
+
+                  <input
+                    id="field"
+                    value="FIELD-001"
+                    readonly
+                  >
+
+                </label>
+
+
+
+                <!-- GROWTH STAGE -->
+
+                <label>
+
+                  🌱 Growth Stage
+
+                  <select id="stage">
+
+                    <option>
+                      Seedling
+                    </option>
+
+                    <option selected>
+                      Vegetative
+                    </option>
+
+                    <option>
+                      Flowering
+                    </option>
+
+                    <option>
+                      Fruiting
+                    </option>
+
+                    <option>
+                      Maturity
+                    </option>
+
+                  </select>
+
+                </label>
+
+
+              </div>
+
+
+              <!-- =================================================
+                   AUTOMATIC ENVIRONMENT MESSAGE
+                   ================================================= -->
+
+              <div class="environment-info">
+
+                <div class="environment-info-icon">
+                  🌦️
+                </div>
+
+                <div>
+
+                  <strong>
+                    Weather is automatic
+                  </strong>
+
+                  <p>
+                    Temperature, humidity, rainfall and
+                    weather-model soil-moisture data will
+                    be obtained from your saved farm location.
+                  </p>
+
+                </div>
+
+              </div>
+
+
+              <button
+                id="analyzeButton"
+                type="submit"
+              >
+
+                <span id="buttonText">
+                  Run AI Analysis
+                </span>
+
+                <span class="button-arrow">
+                  →
+                </span>
+
+              </button>
+
+            </div>
+
+          </div>
+
+        </form>
+
+      </section>
+
+
+
+      <!-- =====================================================
+           RESULT DASHBOARD
+           ===================================================== -->
+
+      <section
+        id="result"
+        class="result-dashboard hidden"
+      >
+
+
+        <!-- RESULT HEADER -->
+
+        <div class="result-header">
+
+          <div>
+
+            <div class="section-number">
+              03
+            </div>
+
+            <h2>
+              Crop Health Assessment
+            </h2>
+
+            <p>
+              AI-generated decision-support results
+            </p>
+
+          </div>
+
+          <div class="analysis-complete">
+            ✓ ANALYSIS COMPLETE
+          </div>
+
+        </div>
+
+
+
+        <!-- MISMATCH WARNING -->
+
+        <div
+          id="mismatch"
+          class="warning hidden"
+        ></div>
+
+
+
+        <!-- =================================================
+             MAIN RESULT CARDS
+             ================================================= -->
+
+        <div class="cards">
+
+
+          <!-- DISEASE -->
+
+          <div class="result-card disease-card">
+
+            <div class="card-label">
+              🌿 AI DIAGNOSIS
+            </div>
+
+            <div
+              id="disease"
+              class="card-value disease-value"
+            ></div>
+
+            <div
+              id="disease-status"
+              class="card-subtext"
+            ></div>
+
+          </div>
+
+
+
+          <!-- CONFIDENCE -->
+
+          <div class="result-card">
+
+            <div class="card-label">
+              🎯 CONFIDENCE
+            </div>
+
+            <div
+              id="conf"
+              class="card-value"
+            ></div>
+
+            <div class="progress-bar">
+
+              <div
+                id="confidenceBar"
+                class="progress-fill"
+              ></div>
+
+            </div>
+
+          </div>
+
+
+
+          <!-- SEVERITY -->
+
+          <div class="result-card">
+
+            <div class="card-label">
+              🧬 SEVERITY
+            </div>
+
+            <div
+              id="severity"
+              class="card-value"
+            ></div>
+
+          </div>
+
+
+
+          <!-- RISK -->
+
+          <div class="result-card risk-card">
+
+            <div class="card-label">
+              ⚠️ CURRENT RISK
+            </div>
+
+            <div
+              id="risk"
+              class="card-value"
+            ></div>
+
+            <div
+              id="risk-status"
+              class="card-subtext"
+            ></div>
+
+          </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             RISK DECOMPOSITION
+             ================================================= -->
+
+        <div
+          id="riskDecompositionSection"
+          class="dashboard-section"
+        >
+
+          <div class="section-title">
+
+            <div class="section-icon">
+              📊
+            </div>
+
+            <div>
+
+              <h3>
+                Risk Decomposition
+              </h3>
+
+              <p>
+                Factors contributing to the current
+                risk assessment
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div
+            id="riskDecomposition"
+            class="risk-decomposition"
+          >
+
+            <!-- JavaScript fills this -->
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             WHY THIS RESULT
+             ================================================= -->
+
+        <div class="dashboard-section">
+
+          <div class="section-title">
+
+            <div class="section-icon">
+              🔎
+            </div>
+
+            <div>
+
+              <h3>
+                Why this result?
+              </h3>
+
+              <p>
+                Key factors contributing to the assessment
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div id="explain"></div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             FORECAST + RECOMMENDATION
+             ================================================= -->
+
+        <div class="dashboard-two-column">
+
+
+          <!-- FORECAST -->
+
+          <div class="dashboard-box">
+
+            <div class="box-heading">
+
+              <div class="section-icon">
+                📈
+              </div>
+
+              <div>
+
+                <h3>
+                  Weather-Aware 5-Day Projection
+                </h3>
+
+                <p>
+                  Scenario projection using forecast
+                  environmental conditions
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <div
+              id="forecast"
+              class="forecast-grid"
+            ></div>
+
+
+            <div class="forecast-disclaimer">
+
+              <strong>Interpretation:</strong>
+
+              This is a weather-aware
+              <strong>risk projection</strong>,
+              not a validated temporal disease forecast.
+
+            </div>
+
+          </div>
+
+
+
+          <!-- RECOMMENDATION -->
+
+          <div class="dashboard-box recommendation-box">
+
+            <div class="box-heading">
+
+              <div class="section-icon">
+                💡
+              </div>
+
+              <div>
+
+                <h3>
+                  Recommended Action
+                </h3>
+
+                <p>
+                  Suggested decision-support guidance
+                </p>
+
+              </div>
+
+            </div>
+
+
+            <p id="rec"></p>
+
+          </div>
+
+
+        </div>
+
+
+
+        <!-- =================================================
+             IMAGE QUALITY
+             ================================================= -->
+
+        <div class="dashboard-section quality-section">
+
+          <div class="section-title">
+
+            <div class="section-icon">
+              📷
+            </div>
+
+            <div>
+
+              <h3>
+                Image Quality
+              </h3>
+
+              <p>
+                Quality indicators for the uploaded image
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div id="quality"></div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             GRAD-CAM
+             ================================================= -->
+
+        <div class="dashboard-section gradcam-section">
+
+          <div class="section-title">
+
+            <div class="section-icon">
+              🧠
+            </div>
+
+            <div>
+
+              <h3>
+                Explainable AI — Grad-CAM
+              </h3>
+
+              <p>
+                Visualization of image regions contributing
+                to the model prediction
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div class="gradcam-layout">
+
+
+            <div class="gradcam-image-container">
+
+              <img
+                id="preview"
+                class="gradcam"
+                alt="Grad-CAM visualization"
+              >
+
+            </div>
+
+
+            <div class="gradcam-info">
+
+              <h4>
+                Model attention
+              </h4>
+
+              <p>
+                Grad-CAM highlights image regions that
+                contribute to the model's prediction.
+              </p>
+
+
+              <div class="gradcam-legend">
+
+
+                <div class="legend-item">
+
+                  <span
+                    class="legend-box legend-strong"
+                  ></span>
+
+                  <span>
+                    Strong model contribution
+                  </span>
+
+                </div>
+
+
+                <div class="legend-item">
+
+                  <span
+                    class="legend-box legend-medium"
+                  ></span>
+
+                  <span>
+                    Moderate contribution
+                  </span>
+
+                </div>
+
+
+                <div class="legend-item">
+
+                  <span
+                    class="legend-box legend-low"
+                  ></span>
+
+                  <span>
+                    Low contribution
+                  </span>
+
+                </div>
+
+
+              </div>
+
+
+              <p class="note">
+
+                Grad-CAM highlights regions contributing
+                to the model prediction. It should not be
+                interpreted as pixel-accurate lesion
+                segmentation.
+
+              </p>
+
+            </div>
+
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             ANALYSIS HISTORY
+             ================================================= -->
+
+        <div class="dashboard-section">
+
+          <div class="section-title">
+
+            <div class="section-icon">
+              📋
+            </div>
+
+            <div>
+
+              <h3>
+                Recent Analysis History
+              </h3>
+
+              <p>
+                Previous crop-health assessments for this farm
+              </p>
+
+            </div>
+
+          </div>
+
+
+          <div
+            id="analysisHistory"
+            class="history-list"
+          >
+
+            Loading history...
+
+          </div>
+
+        </div>
+
+
+
+        <!-- =================================================
+             RESEARCH DISCLAIMER
+             ================================================= -->
+
+        <div class="research-note">
+
+          <span class="research-icon">
+            ℹ️
+          </span>
+
+          <p>
+
+            <strong>Research prototype:</strong>
+
+            Disease classification is based on the trained
+            EfficientNet-B0 model. Severity is currently a
+            transparent prototype estimate based on a color
+            heuristic. Weather-aware risk is a decision-support
+            projection combining disease output with forecast
+            environmental conditions. It is not a validated
+            temporal disease forecast.
+
+            Grad-CAM shows model attention and should not be
+            interpreted as pixel-accurate lesion segmentation.
+
+            Real agricultural validation is required before
+            these outputs are presented as field-validated
+            predictions.
+
+          </p>
+
+        </div>
+
+
+      </section>
+
+
+    </main>
+
+
+  </div>
+
+
+
+  <!-- =====================================================
+       JAVASCRIPT
+       ===================================================== -->
+
+  <script src="/static/app.js?v=5"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,7 @@
+,Healthy,Maize Blight,Maize Common Rust,Maize Gray Leaf Spot,Rice Bacterial Leaf Blight,Rice Leaf Blast
+Healthy,272,0,1,0,0,1
+Maize Blight,0,162,2,9,0,0
+Maize Common Rust,0,7,190,0,0,0
+Maize Gray Leaf Spot,0,18,1,68,0,0
+Rice Bacterial Leaf Blight,2,0,0,0,75,19
+Rice Leaf Blast,0,0,0,0,4,92

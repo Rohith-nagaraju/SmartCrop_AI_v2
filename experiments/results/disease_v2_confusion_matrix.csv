@@ -1,0 +1,16 @@
+,Healthy,Maize Blight,Maize Common Rust,Maize Gray Leaf Spot,Rice Bacterial Leaf Blight,Rice Leaf Blast,Tomato Bacterial Spot,Tomato Early Blight,Tomato Late Blight,Tomato Leaf Mold,Tomato Septoria Leaf Spot,Tomato Spider Mites,Tomato Target Spot,Tomato Tomato Mosaic Virus,Tomato Yellow Leaf Curl Virus
+Healthy,367,0,1,1,0,3,0,0,0,0,0,0,2,0,0
+Maize Blight,0,157,1,15,0,0,0,0,0,0,0,0,0,0,0
+Maize Common Rust,0,6,190,1,0,0,0,0,0,0,0,0,0,0,0
+Maize Gray Leaf Spot,0,12,1,74,0,0,0,0,0,0,0,0,0,0,0
+Rice Bacterial Leaf Blight,0,0,0,0,79,17,0,0,0,0,0,0,0,0,0
+Rice Leaf Blast,0,0,0,0,5,91,0,0,0,0,0,0,0,0,0
+Tomato Bacterial Spot,0,0,0,0,0,0,79,1,1,0,8,0,10,0,1
+Tomato Early Blight,0,0,0,0,0,0,0,83,4,2,3,1,7,0,0
+Tomato Late Blight,0,0,1,0,0,0,0,7,89,1,0,1,0,1,0
+Tomato Leaf Mold,0,0,0,0,0,0,0,1,1,95,0,3,0,0,0
+Tomato Septoria Leaf Spot,1,0,0,0,0,0,0,3,1,0,89,1,5,0,0
+Tomato Spider Mites,1,0,0,0,0,0,0,0,0,0,0,88,11,0,0
+Tomato Target Spot,2,0,0,0,0,0,0,0,0,1,0,3,94,0,0
+Tomato Tomato Mosaic Virus,0,0,0,0,0,0,0,0,0,1,1,2,1,95,0
+Tomato Yellow Leaf Curl Virus,0,0,0,0,0,0,0,0,0,0,0,0,0,0,100

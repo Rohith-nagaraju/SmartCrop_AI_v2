@@ -1,0 +1,16 @@
+Actual Disease,Predicted Disease,Errors
+Rice Bacterial Leaf Blight,Rice Leaf Blast,17
+Maize Blight,Maize Gray Leaf Spot,15
+Maize Gray Leaf Spot,Maize Blight,12
+Tomato Spider Mites,Tomato Target Spot,11
+Tomato Bacterial Spot,Tomato Target Spot,10
+Tomato Bacterial Spot,Tomato Septoria Leaf Spot,8
+Tomato Early Blight,Tomato Target Spot,7
+Tomato Late Blight,Tomato Early Blight,7
+Maize Common Rust,Maize Blight,6
+Rice Leaf Blast,Rice Bacterial Leaf Blight,5
+Tomato Septoria Leaf Spot,Tomato Target Spot,5
+Tomato Early Blight,Tomato Late Blight,4
+Tomato Septoria Leaf Spot,Tomato Early Blight,3
+Tomato Target Spot,Tomato Spider Mites,3
+Tomato Leaf Mold,Tomato Spider Mites,3

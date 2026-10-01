@@ -1,0 +1,10 @@
+﻿.venv/
+data/
+__pycache__/
+*.pyc
+.env
+*.log
+smartcrop.db
+app/data.db
+*.db
+experiments/disease_models/

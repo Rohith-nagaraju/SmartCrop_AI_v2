@@ -1,0 +1,105 @@
+{
+    "Healthy": {
+        "precision": 0.9735449735449735,
+        "recall": 0.983957219251337,
+        "f1-score": 0.9787234042553191,
+        "support": 374.0
+    },
+    "Maize Blight": {
+        "precision": 0.8736263736263736,
+        "recall": 0.9190751445086706,
+        "f1-score": 0.895774647887324,
+        "support": 173.0
+    },
+    "Maize Common Rust": {
+        "precision": 0.9844559585492227,
+        "recall": 0.9644670050761421,
+        "f1-score": 0.9743589743589743,
+        "support": 197.0
+    },
+    "Maize Gray Leaf Spot": {
+        "precision": 0.8117647058823529,
+        "recall": 0.7931034482758621,
+        "f1-score": 0.8023255813953488,
+        "support": 87.0
+    },
+    "Rice Bacterial Leaf Blight": {
+        "precision": 0.9512195121951219,
+        "recall": 0.8125,
+        "f1-score": 0.8764044943820225,
+        "support": 96.0
+    },
+    "Rice Leaf Blast": {
+        "precision": 0.8214285714285714,
+        "recall": 0.9583333333333334,
+        "f1-score": 0.8846153846153846,
+        "support": 96.0
+    },
+    "Tomato Bacterial Spot": {
+        "precision": 1.0,
+        "recall": 0.84,
+        "f1-score": 0.9130434782608695,
+        "support": 100.0
+    },
+    "Tomato Early Blight": {
+        "precision": 0.898876404494382,
+        "recall": 0.8,
+        "f1-score": 0.8465608465608465,
+        "support": 100.0
+    },
+    "Tomato Late Blight": {
+        "precision": 0.9029126213592233,
+        "recall": 0.93,
+        "f1-score": 0.916256157635468,
+        "support": 100.0
+    },
+    "Tomato Leaf Mold": {
+        "precision": 0.968421052631579,
+        "recall": 0.92,
+        "f1-score": 0.9435897435897436,
+        "support": 100.0
+    },
+    "Tomato Septoria Leaf Spot": {
+        "precision": 0.8811881188118812,
+        "recall": 0.89,
+        "f1-score": 0.8855721393034826,
+        "support": 100.0
+    },
+    "Tomato Spider Mites": {
+        "precision": 0.8921568627450981,
+        "recall": 0.91,
+        "f1-score": 0.900990099009901,
+        "support": 100.0
+    },
+    "Tomato Target Spot": {
+        "precision": 0.7244094488188977,
+        "recall": 0.92,
+        "f1-score": 0.8105726872246696,
+        "support": 100.0
+    },
+    "Tomato Tomato Mosaic Virus": {
+        "precision": 1.0,
+        "recall": 0.89,
+        "f1-score": 0.9417989417989417,
+        "support": 100.0
+    },
+    "Tomato Yellow Leaf Curl Virus": {
+        "precision": 0.9900990099009901,
+        "recall": 1.0,
+        "f1-score": 0.9950248756218906,
+        "support": 100.0
+    },
+    "accuracy": 0.9183567342693708,
+    "macro avg": {
+        "precision": 0.9116069075992445,
+        "recall": 0.9020957433630231,
+        "f1-score": 0.9043740970600124,
+        "support": 1923.0
+    },
+    "weighted avg": {
+        "precision": 0.9234451918321497,
+        "recall": 0.9183567342693708,
+        "f1-score": 0.9189606947948217,
+        "support": 1923.0
+    }
+}
