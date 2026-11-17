@@ -3,7 +3,9 @@ from datetime import datetime
 from urllib.parse import urlencode
 from urllib.request import Request, urlopen
 from urllib.error import URLError, HTTPError
-
+import time
+import copy
+import threading
 
 GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search"
 
@@ -206,7 +208,7 @@ def _mean(values):
     return sum(values) / len(values)
 
 
-def get_five_day_weather(latitude: float, longitude: float):
+def _fetch_five_day_weather(latitude: float, longitude: float):
 
     params = urlencode(
         {
@@ -441,3 +443,50 @@ def get_five_day_weather(latitude: float, longitude: float):
 
         "forecast": forecast,
     }
+# ============================================================
+# WEATHER CACHE
+# ============================================================
+
+_WEATHER_CACHE = {}
+_WEATHER_CACHE_LOCK = threading.Lock()
+
+WEATHER_CACHE_TTL = 30 * 60       # 30 minutes
+WEATHER_STALE_LIMIT = 6 * 60 * 60 # 6 hours
+
+
+def get_five_day_weather(latitude: float, longitude: float):
+
+    key = (round(float(latitude), 4), round(float(longitude), 4))
+    now = time.monotonic()
+
+    with _WEATHER_CACHE_LOCK:
+        cached = _WEATHER_CACHE.get(key)
+
+        if cached and now < cached["expires_at"]:
+            result = copy.deepcopy(cached["data"])
+            result["cache_status"] = "fresh_cache"
+            return result
+
+    try:
+        result = _fetch_five_day_weather(latitude, longitude)
+
+        with _WEATHER_CACHE_LOCK:
+            _WEATHER_CACHE[key] = {
+                "data": copy.deepcopy(result),
+                "expires_at": now + WEATHER_CACHE_TTL,
+                "saved_at": now,
+            }
+
+        result["cache_status"] = "live"
+        return result
+
+    except Exception:
+        with _WEATHER_CACHE_LOCK:
+            cached = _WEATHER_CACHE.get(key)
+
+            if cached and now - cached["saved_at"] <= WEATHER_STALE_LIMIT:
+                result = copy.deepcopy(cached["data"])
+                result["cache_status"] = "stale_fallback"
+                return result
+
+        raise
