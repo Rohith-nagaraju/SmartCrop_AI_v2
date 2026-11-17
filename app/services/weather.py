@@ -1,11 +1,17 @@
 import json
-from datetime import datetime
-from urllib.parse import urlencode
-from urllib.request import Request, urlopen
-from urllib.error import URLError, HTTPError
+import logging
 import time
 import copy
 import threading
+from datetime import datetime
+from email.utils import parsedate_to_datetime
+from urllib.parse import urlencode
+from urllib.request import Request, urlopen
+from urllib.error import URLError, HTTPError
+
+from app.database import get_db
+
+logger = logging.getLogger(__name__)
 
 GEOCODING_URL = "https://geocoding-api.open-meteo.com/v1/search"
 
@@ -56,42 +62,77 @@ WEATHER_CODES = {
 }
 
 
+class WeatherRateLimitError(RuntimeError):
+    """Raised when the weather provider returns HTTP 429."""
+
+
+_RATE_LIMIT_UNTIL = 0.0
+_RATE_LIMIT_LOCK = threading.Lock()
+_RATE_LIMIT_COOLDOWN = 5 * 60  # 5 minutes
+_MAX_RETRIES = 2
+
+
 def _get_json(url: str):
+    """Fetch JSON with short retries and a shared 429 cooldown."""
+    global _RATE_LIMIT_UNTIL
+
+    with _RATE_LIMIT_LOCK:
+        if time.time() < _RATE_LIMIT_UNTIL:
+            remaining = int(_RATE_LIMIT_UNTIL - time.time())
+            raise WeatherRateLimitError(
+                f"Weather provider is in rate-limit cooldown ({remaining}s remaining)."
+            )
 
     request = Request(
         url,
-        headers={
-            "User-Agent": "SmartCrop-AI/1.0"
-        },
+        headers={"User-Agent": "SmartCrop-AI/1.0"},
     )
 
-    try:
+    for attempt in range(_MAX_RETRIES + 1):
+        try:
+            with urlopen(request, timeout=15) as response:
+                return json.loads(response.read().decode("utf-8"))
 
-        with urlopen(request, timeout=15) as response:
+        except HTTPError as exc:
+            if exc.code == 429:
+                cooldown = _RATE_LIMIT_COOLDOWN
+                retry_after = exc.headers.get("Retry-After") if exc.headers else None
+                if retry_after:
+                    try:
+                        cooldown = max(cooldown, int(retry_after))
+                    except ValueError:
+                        try:
+                            retry_date = parsedate_to_datetime(retry_after)
+                            cooldown = max(
+                                cooldown,
+                                int(retry_date.timestamp() - time.time()),
+                            )
+                        except Exception:
+                            pass
+                with _RATE_LIMIT_LOCK:
+                    _RATE_LIMIT_UNTIL = time.time() + cooldown
+                raise WeatherRateLimitError(
+                    f"Weather service rate limit (HTTP 429). Retry after about {cooldown}s."
+                ) from exc
 
-            data = response.read().decode("utf-8")
+            # Retry only temporary server errors, not ordinary client errors.
+            if exc.code >= 500 and attempt < _MAX_RETRIES:
+                time.sleep(2 ** attempt)
+                continue
+            raise RuntimeError(f"Weather service HTTP error: {exc.code}") from exc
 
-            return json.loads(data)
+        except URLError as exc:
+            if attempt < _MAX_RETRIES:
+                time.sleep(2 ** attempt)
+                continue
+            raise RuntimeError(
+                f"Weather service unavailable: {exc.reason}"
+            ) from exc
 
-    except HTTPError as e:
+        except Exception as exc:
+            raise RuntimeError(f"Weather service error: {exc}") from exc
 
-        raise RuntimeError(
-            f"Weather service HTTP error: {e.code}"
-        )
-
-    except URLError as e:
-
-        raise RuntimeError(
-            f"Weather service unavailable: {e.reason}"
-        )
-
-    except Exception as e:
-
-        raise RuntimeError(
-            f"Weather service error: {e}"
-        )
-
-
+    raise RuntimeError("Weather service request failed after retries.")
 
 def geocode_location(location: str):
     import re
@@ -444,49 +485,110 @@ def _fetch_five_day_weather(latitude: float, longitude: float):
         "forecast": forecast,
     }
 # ============================================================
-# WEATHER CACHE
+# PERSISTENT WEATHER CACHE
 # ============================================================
 
-_WEATHER_CACHE = {}
-_WEATHER_CACHE_LOCK = threading.Lock()
+WEATHER_CACHE_TTL = 30 * 60          # 30 minutes
+WEATHER_STALE_LIMIT = 6 * 60 * 60    # 6 hours
 
-WEATHER_CACHE_TTL = 30 * 60       # 30 minutes
-WEATHER_STALE_LIMIT = 6 * 60 * 60 # 6 hours
+# Per-location locks prevent simultaneous requests for the same coordinates
+# from creating a burst of calls to Open-Meteo.
+_LOCATION_LOCKS = {}
+_LOCATION_LOCKS_GUARD = threading.Lock()
+
+
+def _location_key(latitude: float, longitude: float) -> str:
+    return f"{round(float(latitude), 4)}:{round(float(longitude), 4)}"
+
+
+def _get_location_lock(key: str):
+    with _LOCATION_LOCKS_GUARD:
+        if key not in _LOCATION_LOCKS:
+            _LOCATION_LOCKS[key] = threading.Lock()
+        return _LOCATION_LOCKS[key]
+
+
+def _read_persistent_cache(key: str):
+    """Return (forecast, saved_at); return None if DB/cache is unavailable."""
+    try:
+        with get_db() as db:
+            row = db.execute(
+                "SELECT forecast_json, saved_at FROM weather_cache WHERE location_key = ?",
+                (key,),
+            ).fetchone()
+        if not row:
+            return None
+
+        # Both SQLite Row and psycopg dict_row support keyed access.
+        payload = row["forecast_json"]
+        saved_at = float(row["saved_at"])
+        forecast = json.loads(payload) if isinstance(payload, str) else payload
+        if not isinstance(forecast, dict) or not isinstance(forecast.get("forecast"), list):
+            return None
+        return forecast, saved_at
+    except Exception as exc:
+        # A cache/database outage must not prevent a live weather fetch.
+        logger.warning("Could not read persistent weather cache: %s", exc)
+        return None
+
+
+def _write_persistent_cache(key: str, forecast: dict):
+    """Persist forecast using an upsert supported by SQLite and PostgreSQL."""
+    try:
+        with get_db() as db:
+            db.execute(
+                """
+                INSERT INTO weather_cache (location_key, forecast_json, saved_at)
+                VALUES (?, ?, ?)
+                ON CONFLICT(location_key) DO UPDATE SET
+                    forecast_json = excluded.forecast_json,
+                    saved_at = excluded.saved_at
+                """,
+                (key, json.dumps(forecast), time.time()),
+            )
+    except Exception as exc:
+        # Continue serving the live result even if persistence fails.
+        logger.warning("Could not save persistent weather cache: %s", exc)
+
+
+def _with_cache_status(forecast: dict, status: str):
+    result = copy.deepcopy(forecast)
+    result["cache_status"] = status
+    return result
 
 
 def get_five_day_weather(latitude: float, longitude: float):
+    """Return five-day weather, preferring Neon cache and falling back safely."""
+    key = _location_key(latitude, longitude)
+    now = time.time()
 
-    key = (round(float(latitude), 4), round(float(longitude), 4))
-    now = time.monotonic()
+    # Serialize requests for one location, while allowing other locations to run.
+    with _get_location_lock(key):
+        cached = _read_persistent_cache(key)
 
-    with _WEATHER_CACHE_LOCK:
-        cached = _WEATHER_CACHE.get(key)
+        if cached:
+            cached_forecast, saved_at = cached
+            age = max(0.0, now - saved_at)
+            if age <= WEATHER_CACHE_TTL:
+                return _with_cache_status(cached_forecast, "fresh_cache")
 
-        if cached and now < cached["expires_at"]:
-            result = copy.deepcopy(cached["data"])
-            result["cache_status"] = "fresh_cache"
-            return result
+        try:
+            forecast = _fetch_five_day_weather(latitude, longitude)
+            _write_persistent_cache(key, forecast)
+            return _with_cache_status(forecast, "live")
 
-    try:
-        result = _fetch_five_day_weather(latitude, longitude)
-
-        with _WEATHER_CACHE_LOCK:
-            _WEATHER_CACHE[key] = {
-                "data": copy.deepcopy(result),
-                "expires_at": now + WEATHER_CACHE_TTL,
-                "saved_at": now,
-            }
-
-        result["cache_status"] = "live"
-        return result
-
-    except Exception:
-        with _WEATHER_CACHE_LOCK:
-            cached = _WEATHER_CACHE.get(key)
-
-            if cached and now - cached["saved_at"] <= WEATHER_STALE_LIMIT:
-                result = copy.deepcopy(cached["data"])
-                result["cache_status"] = "stale_fallback"
-                return result
-
-        raise
+        except Exception as exc:
+            # Re-read after a failed fetch so another worker/process may have
+            # refreshed the shared Neon cache in the meantime.
+            cached = _read_persistent_cache(key)
+            if cached:
+                cached_forecast, saved_at = cached
+                age = max(0.0, time.time() - saved_at)
+                if age <= WEATHER_STALE_LIMIT:
+                    logger.warning(
+                        "Using stale weather cache for %s after provider failure: %s",
+                        key,
+                        exc,
+                    )
+                    return _with_cache_status(cached_forecast, "stale_fallback")
+            raise

@@ -560,7 +560,7 @@ def _severity_score(severity_class: Optional[str]) -> int:
     return mapping.get(value, 1)
 
 
-def _risk_score(risk_level: Optional[str]) -> int:
+def _risk_score(risk_level: Optional[str]) -> Optional[int]:
     value = _normalise(risk_level)
 
     mapping = {
@@ -571,8 +571,7 @@ def _risk_score(risk_level: Optional[str]) -> int:
         "critical": 4,
     }
 
-    return mapping.get(value, 1)
-
+    return mapping.get(value)
 
 def _environment_flags(
     humidity: Optional[float],
@@ -580,18 +579,17 @@ def _environment_flags(
     soil_moisture: Optional[float],
 ) -> Dict[str, bool]:
 
-    humidity_value = float(humidity or 0)
-    rainfall_value = float(rainfall or 0)
-    soil_value = float(soil_moisture or 0)
+    humidity_value = float(humidity) if humidity is not None else None
+    rainfall_value = float(rainfall) if rainfall is not None else None
+    soil_value = float(soil_moisture) if soil_moisture is not None else None
 
     return {
-        "high_humidity": humidity_value >= 75,
-        "very_high_humidity": humidity_value >= 85,
-        "rainy": rainfall_value >= 5,
-        "heavy_rain": rainfall_value >= 15,
-        "wet_soil": soil_value >= 65,
+        "high_humidity": humidity_value is not None and humidity_value >= 75,
+        "very_high_humidity": humidity_value is not None and humidity_value >= 85,
+        "rainy": rainfall_value is not None and rainfall_value >= 5,
+        "heavy_rain": rainfall_value is not None and rainfall_value >= 15,
+        "wet_soil": soil_value is not None and soil_value >= 65,
     }
-
 
 def _priority_label(
     severity_class: str,
@@ -600,6 +598,17 @@ def _priority_label(
 
     severity = _severity_score(severity_class)
     risk = _risk_score(risk_level)
+
+    # When environmental risk is unavailable,
+    # assign priority using disease severity only.
+    if risk is None:
+        if severity >= 4:
+            return "URGENT FIELD INSPECTION"
+        if severity == 3:
+            return "PRIORITY MONITORING"
+        if severity == 2:
+            return "MONITOR CLOSELY"
+        return "ROUTINE MONITORING"
 
     combined = severity + risk
 
@@ -614,12 +623,17 @@ def _priority_label(
 
     return "ROUTINE MONITORING"
 
-
 def _build_weather_message(
     humidity: Optional[float],
     rainfall: Optional[float],
     soil_moisture: Optional[float],
 ) -> str:
+
+    if humidity is None and rainfall is None and soil_moisture is None:
+        return (
+            "Weather data is unavailable. "
+            "Environmental disease pressure has not been assessed."
+        )
 
     flags = _environment_flags(
         humidity,
@@ -654,11 +668,10 @@ def _build_weather_message(
 
     if not messages:
         messages.append(
-            "Current weather indicators do not show unusually strong moisture pressure."
+            "Available weather indicators do not show unusually strong moisture pressure."
         )
 
     return " ".join(messages)
-
 
 def _select_immediate_actions(
     profile: Dict[str, Any],
@@ -876,25 +889,34 @@ def build_recommendation(
     # MAIN SUMMARY
     # --------------------------------------------------------
 
-    if risk_level.upper() == "CRITICAL":
+        normalized_risk = str(risk_level or "NOT_ASSESSED").upper()
+
+    if normalized_risk == "CRITICAL":
         summary = (
             f"{priority}: {disease}. "
             "Inspect the affected field area promptly and verify the diagnosis "
             "before taking treatment decisions."
         )
 
-    elif risk_level.upper() == "HIGH":
+    elif normalized_risk == "HIGH":
         summary = (
             f"{priority}: {disease}. "
             "Increase scouting and begin disease-management measures supported "
             "by field observations."
         )
 
-    elif risk_level.upper() in {"MODERATE", "ELEVATED"}:
+    elif normalized_risk in {"MODERATE", "ELEVATED"}:
         summary = (
             f"{priority}: {disease}. "
             "Monitor the affected area closely and address environmental and "
             "sanitation factors."
+        )
+
+    elif normalized_risk == "NOT_ASSESSED":
+        summary = (
+            f"{priority}: {disease}. "
+            "Environmental risk has not been assessed because complete weather "
+            "data is unavailable. Follow disease-specific monitoring guidance."
         )
 
     else:

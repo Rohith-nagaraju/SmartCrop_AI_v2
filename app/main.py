@@ -974,108 +974,90 @@ async def analyze(
     # ========================================================
 
     try:
-
         weather_data = get_five_day_weather(
             farmer["latitude"],
             farmer["longitude"],
         )
+        weather_days = weather_data.get("forecast", [])
 
     except Exception as e:
-
-        raise HTTPException(
-            status_code=503,
-            detail=(
-                f"Unable to retrieve live weather: {e}"
-            )
-        )
-
-    weather_days = weather_data.get(
-        "forecast",
-        []
-    )
-
-    if not weather_days:
-
-        raise HTTPException(
-            status_code=503,
-            detail="No weather forecast available."
-        )
+        # Weather is supplementary to disease classification.
+        # Continue the analysis without environmental scoring.
+        print(f"Weather unavailable during analysis: {e}")
+        weather_days = []
 
     # ========================================================
     # CURRENT ENVIRONMENT
     # ========================================================
 
-    today = weather_days[0]
+    today = weather_days[0] if weather_days else {}
 
-    current_temperature = (
-        today.get("temperature_max")
-        if today.get("temperature_max")
-        is not None
-        else 25.0
-    )
+    # Preserve missing values. Never invent environmental inputs.
+    current_temperature = today.get("temperature_max")
+    current_humidity = today.get("humidity")
+    current_rainfall = today.get("rainfall")
+    current_soil = today.get("soil_moisture")
 
-    current_humidity = (
-        today.get("humidity")
-        if today.get("humidity")
-        is not None
-        else 70.0
-    )
+    # ========================================================
+    # ENVIRONMENTAL DATA VALIDATION
+    # ========================================================
 
-    current_rainfall = (
-        today.get("rainfall")
-        if today.get("rainfall")
-        is not None
-        else 0.0
-    )
-
-    current_soil = (
-        today.get("soil_moisture")
-        if today.get("soil_moisture")
-        is not None
-        else 55.0
+    weather_available = all(
+        value is not None
+        for value in (
+            current_temperature,
+            current_humidity,
+            current_rainfall,
+            current_soil,
+        )
     )
 
     # ========================================================
-    # CURRENT ENVIRONMENTAL PRESSURE
+    # CURRENT ENVIRONMENTAL PRESSURE AND RISK
     # ========================================================
 
-    dpi = dpi_from_environment(
+    if weather_available:
+        dpi = dpi_from_environment(
+            current_temperature,
+            current_humidity,
+            current_rainfall,
+            current_soil,
+        )
 
-        current_temperature,
+        score, level = fuse_risk(
+            pred["confidence"],
+            severity_percent,
+            dpi,
+        )
 
-        current_humidity,
+        # These are score-point contributions consistent with the
+        # current fuse_risk() formula. They are not causal effects
+        # or statistical feature-importance values.
+        risk_breakdown = risk_decomposition(
+            confidence=pred["confidence"],
+            severity_percent=severity_percent,
+            temperature=current_temperature,
+            humidity=current_humidity,
+            rainfall=current_rainfall,
+            soil_moisture=current_soil,
+        )
 
-        current_rainfall,
+    else:
+        dpi = None
+        score = None
+        level = None
+        risk_breakdown = None
 
-        current_soil,
+    # Only pass environmental measurements to recommendations
+    # when the complete environmental assessment is available.
+    recommendation_humidity = (
+        current_humidity if weather_available else None
     )
-
-    # ========================================================
-    # CURRENT RISK
-    # ========================================================
-
-    score, level = fuse_risk(
-
-        pred["confidence"],
-
-        severity_percent,
-
-        dpi,
+    recommendation_rainfall = (
+        current_rainfall if weather_available else None
     )
-
-    # ========================================================
-    # RISK DECOMPOSITION
-    # ========================================================
-    # These are score-point contributions consistent with the
-    # current fuse_risk() formula. They are not causal effects
-    # or statistical feature-importance values.
-    risk_breakdown = risk_decomposition(
-        confidence=pred["confidence"],
-        severity_percent=severity_percent,
-        temperature=current_temperature,
-        humidity=current_humidity,
-        rainfall=current_rainfall,
-        soil_moisture=current_soil,
+    recommendation_soil = (
+        current_soil if weather_available else None
     )
 
     # ========================================================
@@ -1137,20 +1119,22 @@ async def analyze(
             "weather_context": {
 
                 "humidity":
-                    current_humidity,
+                    recommendation_humidity,
 
                 "rainfall":
-                    current_rainfall,
+                    recommendation_rainfall,
 
                 "soil_moisture":
-                    current_soil,
+                    recommendation_soil,
 
-                "message":
-                    (
-                        "Weather information can support "
-                        "monitoring, but does not confirm "
-                        "the disease diagnosis."
-                    ),
+                "message": (
+                    "Weather data is unavailable or incomplete. "
+                    "Environmental disease pressure has not been assessed."
+                    if not weather_available
+                    else
+                    "Weather information can support monitoring, "
+                    "but does not confirm the disease diagnosis."
+                ),
             },
 
             "growth_stage_note":
@@ -1184,13 +1168,13 @@ async def analyze(
                 level,
 
             humidity=
-                current_humidity,
+                recommendation_humidity,
 
             rainfall=
-                current_rainfall,
+                recommendation_rainfall,
 
             soil_moisture=
-                current_soil,
+                recommendation_soil,
 
             crop=
                 selected_crop,
@@ -1219,92 +1203,55 @@ async def analyze(
     risk_forecast = []
 
     for day in weather_days:
+        temperature = day.get("temperature_max")
+        humidity = day.get("humidity")
+        rainfall = day.get("rainfall")
+        soil = day.get("soil_moisture")
 
-        temperature = (
-            day.get("temperature_max")
-            if day.get("temperature_max")
-            is not None
-            else current_temperature
+        day_weather_available = all(
+            value is not None
+            for value in (
+                temperature,
+                humidity,
+                rainfall,
+                soil,
+            )
         )
 
-        humidity = (
-            day.get("humidity")
-            if day.get("humidity")
-            is not None
-            else current_humidity
-        )
+        if day_weather_available:
+            day_dpi = dpi_from_environment(
+                temperature,
+                humidity,
+                rainfall,
+                soil,
+            )
 
-        rainfall = (
-            day.get("rainfall")
-            if day.get("rainfall")
-            is not None
-            else 0.0
-        )
-
-        soil = (
-            day.get("soil_moisture")
-            if day.get("soil_moisture")
-            is not None
-            else current_soil
-        )
-
-        day_dpi = dpi_from_environment(
-
-            temperature,
-
-            humidity,
-
-            rainfall,
-
-            soil,
-        )
-
-        day_score, day_level = fuse_risk(
-
-            pred["confidence"],
-
-            severity_percent,
-
-            day_dpi,
-        )
+            day_score, day_level = fuse_risk(
+                pred["confidence"],
+                severity_percent,
+                day_dpi,
+            )
+        else:
+            day_dpi = None
+            day_score = None
+            day_level = None
 
         risk_forecast.append({
-
-            "date":
-                day.get("date"),
-
-            "temperature_max":
-                temperature,
-
-            "temperature_min":
-                day.get("temperature_min"),
-
-            "humidity":
-                humidity,
-
-            "rainfall":
-                rainfall,
-
-            "rain_probability":
-                day.get("rain_probability"),
-
-            "soil_moisture":
-                soil,
-
-            "weather":
-                day.get("weather"),
-
-            "weather_code":
-                day.get("weather_code"),
-
-            "environmental_pressure":
-                day_dpi,
-
-            "risk_score":
-                day_score,
-
-            "risk_level":
-                day_level,
+            "date": day.get("date"),
+            "temperature_max": temperature,
+            "temperature_min": day.get("temperature_min"),
+            "humidity": humidity,
+            "rainfall": rainfall,
+            "rain_probability": day.get("rain_probability"),
+            "soil_moisture": soil,
+            "weather": day.get("weather"),
+            "weather_code": day.get("weather_code"),
+            "environmental_pressure": day_dpi,
+            "risk_score": day_score,
+            "risk_level": day_level,
+            "environmental_assessment_status": (
+                "ASSESSED" if day_weather_available else "NOT_ASSESSED"
+            ),
         })
 
     # ========================================================
@@ -1358,19 +1305,28 @@ async def analyze(
         "growth_stage":
             growth_stage,
 
-        "forecast_type":
-            "weather_aware_five_day_projection",
+        "forecast_type": (
+            "weather_aware_five_day_projection"
+            if any(
+                day.get("environmental_assessment_status") == "ASSESSED"
+                for day in risk_forecast
+            )
+            else "not_assessed_weather_unavailable"
+        ),
 
-        "forecast_note":
-            (
-                "The five-day projection combines the "
-                "current disease-model confidence and "
-                "prototype severity estimate with forecast "
-                "environmental conditions for the farmer's "
-                "saved location. It is a decision-support "
-                "projection, not a validated disease outbreak "
-                "forecast."
-            ),
+        "forecast_note": (
+            "The five-day projection combines disease-model "
+            "confidence and prototype severity with forecast "
+            "environmental conditions. It is a decision-support "
+            "projection, not a validated disease outbreak forecast."
+            if any(
+                day.get("environmental_assessment_status") == "ASSESSED"
+                for day in risk_forecast
+            )
+            else
+            "Five-day environmental risk projection was not assessed "
+            "because complete weather data is unavailable."
+        ),
 
         "severity_note":
             (
@@ -1516,6 +1472,12 @@ async def analyze(
         "risk_level":
             level,
 
+        "weather_available": weather_available,
+
+        "environmental_assessment_status": (
+            "ASSESSED" if weather_available else "NOT_ASSESSED"
+        ),
+
         "risk_decomposition":
             risk_breakdown,
 
@@ -1523,6 +1485,8 @@ async def analyze(
             pred.get("model_version"),
 
         "current_weather": {
+
+            "available": weather_available,
 
             "temperature":
                 current_temperature,

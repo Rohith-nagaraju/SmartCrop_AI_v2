@@ -1,6 +1,5 @@
 
 import os
-import re
 import sqlite3
 
 from contextlib import contextmanager
@@ -9,11 +8,17 @@ from pathlib import Path
 from dotenv import load_dotenv
 from .config import DB_PATH
 
-# Load local .env file (Cloud Run supplies environment variables directly).
+
+# Load local .env file.
+# Render/Neon supplies environment variables directly.
 load_dotenv(Path(__file__).resolve().parents[1] / ".env")
 
 DATABASE_URL = os.getenv("DATABASE_URL")
 
+
+# ============================================================
+# SQLITE SCHEMA
+# ============================================================
 
 SQLITE_SCHEMA = """
 PRAGMA foreign_keys = ON;
@@ -77,8 +82,18 @@ CREATE TABLE IF NOT EXISTS environment_readings (
     soil_moisture REAL,
     disease_score REAL
 );
+
+CREATE TABLE IF NOT EXISTS weather_cache (
+    location_key TEXT PRIMARY KEY,
+    forecast_json TEXT NOT NULL,
+    saved_at REAL NOT NULL
+);
 """
 
+
+# ============================================================
+# POSTGRESQL / NEON SCHEMA
+# ============================================================
 
 POSTGRES_SCHEMA = """
 CREATE TABLE IF NOT EXISTS farmers (
@@ -136,8 +151,18 @@ CREATE TABLE IF NOT EXISTS environment_readings (
     soil_moisture DOUBLE PRECISION,
     disease_score DOUBLE PRECISION
 );
+
+CREATE TABLE IF NOT EXISTS weather_cache (
+    location_key TEXT PRIMARY KEY,
+    forecast_json TEXT NOT NULL,
+    saved_at DOUBLE PRECISION NOT NULL
+);
 """
 
+
+# ============================================================
+# POSTGRESQL COMPATIBILITY WRAPPER
+# ============================================================
 
 class PostgresConnection:
     """Small compatibility layer for existing SQLite-style queries."""
@@ -149,6 +174,10 @@ class PostgresConnection:
         query = query.replace("?", "%s")
         return self.connection.execute(query, params)
 
+
+# ============================================================
+# DATABASE CONNECTION
+# ============================================================
 
 @contextmanager
 def get_db():
@@ -183,6 +212,7 @@ def get_db():
 
         conn = sqlite3.connect(DB_PATH)
         conn.row_factory = sqlite3.Row
+
         conn.execute("PRAGMA foreign_keys = ON")
         conn.executescript(SQLITE_SCHEMA)
 
