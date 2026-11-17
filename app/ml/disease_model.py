@@ -123,8 +123,9 @@ class DiseaseModel:
             import tensorflow as tf
 
             self.model = tf.keras.models.load_model(
-                str(model_path)
-            )
+    str(model_path),
+    compile=False
+)
 
             # ----------------------------------------------------
             # MODEL WARM-UP
