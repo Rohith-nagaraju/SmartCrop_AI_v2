@@ -93,7 +93,7 @@ class DiseaseModel:
         ).strip().lower()
 
         if requested_version == "v4":
-            model_filename = "disease_model_v4.keras"
+            model_filename = "disease_model_v4.h5"
             classes_filename = "class_names_v4.json"
             self.model_version = "v4"
 
