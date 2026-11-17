@@ -59,6 +59,12 @@ from .services.weather import (
     get_five_day_weather,
 )
 
+from .services.translation_service import (
+    SUPPORTED_LANGUAGES,
+    translate_recommendation_plan,
+)
+
+
 
 # ============================================================
 # APPLICATION
@@ -341,6 +347,8 @@ def register(
                 )
             )
 
+
+            
         cursor = db.execute(
             """
             INSERT INTO farmers(
@@ -360,28 +368,26 @@ def register(
             VALUES(
                 ?,?,?,?,?,?,?,?,?,?,?,?
             )
+            RETURNING id
             """,
             (
                 data.full_name.strip(),
                 email,
                 password_hash,
                 data.farm_name.strip(),
-
                 location["name"],
                 location["latitude"],
                 location["longitude"],
-
                 location.get("country"),
                 location.get("state"),
                 location.get("city"),
-
                 crop,
-
                 data.field_id.strip(),
             )
         )
 
-        farmer_id = cursor.lastrowid
+        farmer_id = cursor.fetchone()["id"]
+
 
     return {
         "success": True,
@@ -1611,3 +1617,55 @@ def history(
             for row in rows
         ]
     }
+
+# ============================================================
+# REGIONAL-LANGUAGE RECOMMENDATIONS
+# ============================================================
+
+@app.post("/api/recommendation/translate")
+def translate_recommendation(
+    payload: dict,
+    authorization: Optional[str] = Header(default=None),
+):
+    # Reuse SmartCrop AI's existing farmer authentication.
+    get_farmer_from_token(authorization)
+
+    language = payload.get("language")
+    plan = payload.get("recommendation_plan")
+
+    if language not in SUPPORTED_LANGUAGES:
+        raise HTTPException(
+            status_code=400,
+            detail="Unsupported language. Use en, kn, te, or ta.",
+        )
+
+    if not isinstance(plan, dict):
+        raise HTTPException(
+            status_code=400,
+            detail="recommendation_plan must be an object.",
+        )
+
+    try:
+        translated_plan = translate_recommendation_plan(
+            plan,
+            language,
+        )
+    except RuntimeError as exc:
+        # Do not expose API keys or internal provider details.
+        raise HTTPException(
+            status_code=503,
+            detail=str(exc),
+        ) from exc
+    except ValueError as exc:
+        raise HTTPException(
+            status_code=400,
+            detail=str(exc),
+        ) from exc
+
+    return {
+        "language": language,
+        "language_name": SUPPORTED_LANGUAGES[language],
+        "original_plan": plan,
+        "translated_plan": translated_plan,
+    }
+

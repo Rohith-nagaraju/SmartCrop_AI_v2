@@ -90,37 +90,93 @@ def _get_json(url: str):
         )
 
 
+
 def geocode_location(location: str):
+    import re
 
     location = location.strip()
 
     if not location:
-
         raise ValueError("Location cannot be empty.")
 
-    params = urlencode(
-        {
-            "name": location,
-            "count": 5,
+    # Split an address into useful search terms.
+    parts = [
+        part.strip()
+        for part in location.split(",")
+        if part.strip()
+    ]
+
+    # Try the full address first, then individual components.
+    search_terms = [location]
+
+    for part in parts:
+        if part not in search_terms:
+            search_terms.append(part)
+
+    # Remove duplicate terms while preserving order.
+    search_terms = list(dict.fromkeys(search_terms))
+
+    results = []
+
+    for term in search_terms:
+        params = urlencode({
+            "name": term,
+            "count": 10,
             "language": "en",
             "format": "json",
-        }
-    )
+        })
 
-    url = f"{GEOCODING_URL}?{params}"
+        url = f"{GEOCODING_URL}?{params}"
 
-    data = _get_json(url)
+        data = _get_json(url)
+        matches = data.get("results", [])
 
-    results = data.get("results", [])
+        if matches:
+            results.extend(matches)
 
     if not results:
-
         raise ValueError(
-            f"Could not find the location '{location}'. "
-            "Try entering a city, district or postal code."
+            f"Could not locate '{location}'. "
+            "Please check the village, town, district or PIN code."
         )
 
-    # Prefer the first ranked result returned by Open-Meteo.
+    # Prefer Indian results when the entered address
+    # contains an Indian state or country reference.
+    india_terms = [
+        "india",
+        "karnataka",
+        "bangalore",
+        "bengaluru",
+        "mysore",
+        "mysuru",
+    ]
+
+    expects_india = any(
+        term in location.lower()
+        for term in india_terms
+    )
+
+    if expects_india:
+        indian_results = [
+            item for item in results
+            if item.get("country_code") == "IN"
+        ]
+
+        if indian_results:
+            results = indian_results
+
+    # Prefer a result whose name matches the first
+    # address component (usually the village or town).
+    first_place = parts[0].lower() if parts else ""
+
+    results.sort(
+        key=lambda item: (
+            item.get("name", "").lower() != first_place,
+            item.get("country_code") != "IN"
+                if expects_india else False,
+        )
+    )
+
     result = results[0]
 
     return {

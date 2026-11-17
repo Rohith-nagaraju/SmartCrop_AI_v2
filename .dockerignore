@@ -1,0 +1,15 @@
+
+.venv/
+venv/
+__pycache__/
+*.pyc
+.git/
+.github/
+.env
+*.db
+data/
+node_modules/
+IEEE_Evidence/
+IEEE_Evidence.zip
+.agents/
+.firebase/
